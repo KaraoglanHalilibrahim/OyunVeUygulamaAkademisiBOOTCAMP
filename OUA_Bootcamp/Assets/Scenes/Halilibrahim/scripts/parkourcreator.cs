@@ -57,7 +57,7 @@ public class parkourcreator : MonoBehaviour
         for (int i = 0; i < parkurNesnesi.childCount; i++)
         {
             Transform obje = parkurNesnesi.GetChild(i);
-            Vector3 rastgeleKonum = new Vector3(Random.Range(-10f, 10f), alttaGelmeYuksekligi, Random.Range(-10f, 10f));
+            Vector3 rastgeleKonum = new Vector3(Random.Range(-10f, 100f), alttaGelmeYuksekligi, Random.Range(-10f, 100f));
             obje.position = rastgeleKonum;
         }
 
