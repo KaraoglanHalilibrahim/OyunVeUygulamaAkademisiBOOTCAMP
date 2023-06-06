@@ -5,8 +5,8 @@ using UnityEngine;
 public class parkourcreator : MonoBehaviour
 {
     public Transform parkurNesnesi;
-    public float rastgeleKonumAralýðý = 5f;
     public float hareketHizi = 2f;
+    public float alttaGelmeYuksekligi = -10f;
 
     private Vector3[] baslangicKonumlari;
     private bool kaydiriliyor = false;
@@ -49,29 +49,22 @@ public class parkourcreator : MonoBehaviour
             baslangicKonumlari[i] = parkurNesnesi.GetChild(i).position;
         }
 
-        // Objeleri rastgele konumlara yerleþtir
-        for (int i = 0; i < objeSayisi; i++)
+        Kaydir();
+    }
+
+    private void Kaydir()
+    {
+        for (int i = 0; i < parkurNesnesi.childCount; i++)
         {
             Transform obje = parkurNesnesi.GetChild(i);
-
-            // Rastgele bir konum oluþtur
-            Vector3 rastgeleKonum = new Vector3(Random.Range(-rastgeleKonumAralýðý, rastgeleKonumAralýðý),
-                                                0f,
-                                                Random.Range(-rastgeleKonumAralýðý, rastgeleKonumAralýðý));
-
-            // Objeyi rastgele konuma taþý
-            obje.position = baslangicKonumlari[i] + rastgeleKonum;
+            Vector3 rastgeleKonum = new Vector3(Random.Range(-10f, 10f), alttaGelmeYuksekligi, Random.Range(-10f, 10f));
+            obje.position = rastgeleKonum;
         }
 
         kaydiriliyor = true;
         kaymaZamani = 0f;
     }
-
-    public void Resetle()
-    {
-        kaydiriliyor = true;
-        kaymaZamani = 0f;
-    }
 }
+
 
 
