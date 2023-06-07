@@ -10,35 +10,49 @@ public class parkourcreator : MonoBehaviour
 
     private Vector3[] baslangicKonumlari;
     private bool kaydiriliyor = false;
-    private float kaymaZamani = 0f;
+    private float beklemeyeBaslamaZamani = 0f;
 
     void Start()
     {
-        OyunuBaþlat();
+        OyunuBaslat();
     }
 
     void Update()
     {
         if (kaydiriliyor)
         {
-            kaymaZamani += Time.deltaTime * hareketHizi;
+            float gecenSure = Time.time - beklemeyeBaslamaZamani;
 
-            for (int i = 0; i < parkurNesnesi.childCount; i++)
+            if (gecenSure >= 0f)
             {
-                Transform obje = parkurNesnesi.GetChild(i);
-                Vector3 hedefKonum = baslangicKonumlari[i];
-                Vector3 yeniKonum = Vector3.Lerp(obje.position, hedefKonum, kaymaZamani);
-                obje.position = yeniKonum;
-            }
+                for (int i = 0; i < parkurNesnesi.childCount; i++)
+                {
+                    Transform obje = parkurNesnesi.GetChild(i);
+                    Vector3 hedefKonum = baslangicKonumlari[i];
+                    Vector3 yeniKonum = Vector3.MoveTowards(obje.position, hedefKonum, hareketHizi * Time.deltaTime);
+                    obje.position = yeniKonum;
+                }
 
-            if (kaymaZamani >= 1f)
-            {
-                kaydiriliyor = false;
+                bool tamamlananHareket = true;
+                for (int i = 0; i < parkurNesnesi.childCount; i++)
+                {
+                    Transform obje = parkurNesnesi.GetChild(i);
+                    if (Vector3.Distance(obje.position, baslangicKonumlari[i]) > 0.01f)
+                    {
+                        tamamlananHareket = false;
+                        break;
+                    }
+                }
+
+                if (tamamlananHareket)
+                {
+                    kaydiriliyor = false;
+                }
             }
         }
     }
 
-    void OyunuBaþlat()
+    void OyunuBaslat()
     {
         int objeSayisi = parkurNesnesi.childCount;
         baslangicKonumlari = new Vector3[objeSayisi];
@@ -49,22 +63,19 @@ public class parkourcreator : MonoBehaviour
             baslangicKonumlari[i] = parkurNesnesi.GetChild(i).position;
         }
 
-        Kaydir();
+        RastgeleKonumdaHareketEt();
     }
 
-    private void Kaydir()
+    private void RastgeleKonumdaHareketEt()
     {
         for (int i = 0; i < parkurNesnesi.childCount; i++)
         {
             Transform obje = parkurNesnesi.GetChild(i);
-            Vector3 rastgeleKonum = new Vector3(Random.Range(-10f, 100f), alttaGelmeYuksekligi, Random.Range(-10f, 100f));
+            Vector3 rastgeleKonum = new Vector3(Random.Range(-1f, 100f), alttaGelmeYuksekligi, Random.Range(-1f, 100f));
             obje.position = rastgeleKonum;
         }
 
         kaydiriliyor = true;
-        kaymaZamani = 0f;
+        beklemeyeBaslamaZamani = Time.time;
     }
 }
-
-
-
