@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0854e2599632d44b9ed2a00536ae1f9, type: 3}
+  m_Name: DefaultFPConfig
+  m_EditorClassIdentifier: 
+  Headbob_WalkBobAmount: 0.07
+  Headbob_RunBobAmount: 1
+  Headbob_MinSpeedToBob: 0.1
+  Height: 1.8
+  Radius: 0.3
+  GroundedLayerMask:
+    serializedVersion: 2
+    m_Bits: 17
+  GroundedCheckBuffer: 1
+  GroundedCheckRadiusBuffer: 0.1
+  CeilingCheckLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  CeilingCheckRangeBuffer: -0.9
+  CeilingCheckRadiusBuffer: 0
+  Material_Default: {fileID: 13400000, guid: a0faee215e9e68747a5bc4173a96efc6, type: 2}
+  Material_Jumping: {fileID: 13400000, guid: be12e5b7f64cf2048b258f6bae6f1c03, type: 2}
+  Camera_InvertY: 0
+  Camera_HorizontalSensitivity: 20
+  Camera_VerticalSensitivity: 20
+  Camera_MinPitch: -75
+  Camera_MaxPitch: 75
+  WalkSpeed: 9
+  RunSpeed: 8
+  CanRun: 1
+  IsRunToggle: 0
+  SlopeLimit: 60
+  Acceleration: 0.8
+  FallVelocity: 12
+  CanAirControl: 1
+  AirControlMaxSpeed: 7
+  CanJump: 1
+  CanDoubleJump: 0
+  JumpVelocity: 10
+  JumpTime: 0.25
