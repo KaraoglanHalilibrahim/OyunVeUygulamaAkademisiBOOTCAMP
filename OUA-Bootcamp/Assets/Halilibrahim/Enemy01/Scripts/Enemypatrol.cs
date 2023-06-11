@@ -6,24 +6,42 @@ public class Enemypatrol : MonoBehaviour
     public Transform target;
     public float minChaseSpeed = 3f;
     public float maxChaseSpeed = 5f;
+    public float delayBeforeMovement = 1.5f;
 
     private Animator animator;
     private NavMeshAgent agent;
     private bool isDead = false;
+    private bool canMove = false;
+
+    private float currentSpeed;
+    private float timeSinceStop = 0f;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         agent.speed = GetRandomSpeed();
+        currentSpeed = agent.speed;
     }
 
     void Update()
     {
         if (!isDead)
         {
-            ChaseTarget();
-            UpdateAnimation();
+            if (canMove)
+            {
+                ChaseTarget();
+                UpdateAnimation();
+            }
+            else
+            {
+                timeSinceStop += Time.deltaTime;
+                if (timeSinceStop >= delayBeforeMovement)
+                {
+                    canMove = true;
+                    agent.speed = currentSpeed;
+                }
+            }
         }
         else
         {
@@ -63,6 +81,12 @@ public class Enemypatrol : MonoBehaviour
         if (isDead)
         {
             StopMovement();
+        }
+        else
+        {
+            timeSinceStop = 0f;
+            canMove = false;
+            agent.speed = 0f;
         }
     }
 }
