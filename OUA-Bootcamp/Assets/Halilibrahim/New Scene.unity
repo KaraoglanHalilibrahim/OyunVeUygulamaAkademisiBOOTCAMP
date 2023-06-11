@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 8493.757, g: 5627.684, b: 4698.9614, a: 1}
+  m_IndirectSpecularColor: {r: 9207.757, g: 6511.4346, b: 6468.048, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3883,7 +3883,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775828072464594761}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5634,7 +5634,7 @@ Animator:
   m_GameObject: {fileID: 7174089599972502464}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 63e974d9ec82619419e69ae2287be94e, type: 3}
-  m_Controller: {fileID: 9100000, guid: 1ec31ee6b4e699b4c919f9ddd24f6f73, type: 2}
+  m_Controller: {fileID: 9100000, guid: 81afbe0307f647f4abc8fe44b163cf09, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5678,6 +5678,7 @@ MonoBehaviour:
   target: {fileID: 2950428215600885306}
   minChaseSpeed: 3
   maxChaseSpeed: 5
+  delayBeforeMovement: 1.5
 --- !u!114 &7174089599972502468
 MonoBehaviour:
   m_ObjectHideFlags: 0
