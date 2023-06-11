@@ -5,8 +5,8 @@ public class fireBullet : MonoBehaviour
     public GameObject mermiPrefab; // Kurþun objesinin prefab'ý
     public Transform nisangahNoktasi; // Nisangah noktasýnýn Transform bileþeni
 
-    public float atisGucu = 1000f; // Kurþun atýþ gücü (N)
-    public float atisHizi = 100f; // Kurþun atýþ hýzý (m/s)
+    public float atisGucu = 10000f; // Kurþun atýþ gücü (N)
+    public float atisHizi = 1000f; // Kurþun atýþ hýzý (m/s)
 
     void Update()
     {
