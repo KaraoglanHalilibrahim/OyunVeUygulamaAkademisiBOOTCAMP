@@ -9,6 +9,7 @@ public class Enemypatrol : MonoBehaviour
 
     private Animator animator;
     private NavMeshAgent agent;
+    private bool isDead = false;
 
     void Start()
     {
@@ -19,13 +20,20 @@ public class Enemypatrol : MonoBehaviour
 
     void Update()
     {
-        ChaseTarget();
-        UpdateAnimation();
+        if (!isDead)
+        {
+            ChaseTarget();
+            UpdateAnimation();
+        }
+        else
+        {
+            StopMovement();
+        }
     }
 
     void ChaseTarget()
     {
-        if (target != null)
+        if (target != null && !animator.GetBool("death"))
         {
             agent.SetDestination(target.position);
         }
@@ -37,8 +45,24 @@ public class Enemypatrol : MonoBehaviour
         animator.SetFloat("Speed", speed);
     }
 
+    void StopMovement()
+    {
+        agent.velocity = Vector3.zero;
+        agent.isStopped = true;
+    }
+
     float GetRandomSpeed()
     {
         return Random.Range(minChaseSpeed, maxChaseSpeed);
+    }
+
+    public void SetDead(bool value)
+    {
+        isDead = value;
+        animator.SetBool("death", isDead);
+        if (isDead)
+        {
+            StopMovement();
+        }
     }
 }

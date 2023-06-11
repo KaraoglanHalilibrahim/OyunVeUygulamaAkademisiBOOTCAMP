@@ -7,6 +7,7 @@ public class EnemyAttack : MonoBehaviour
     public float rotationSpeed = 5f; // Dönüþ hýzýný kontrol etmek için bir deðer
 
     private bool attack = false;
+    private bool isDead = false;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -28,7 +29,7 @@ public class EnemyAttack : MonoBehaviour
     {
         animator.SetBool("attack", attack);
 
-        if (attack)
+        if (!isDead && attack)
         {
             // Karakterin karakter objesine doðru bakmasýný saðlar
             Vector3 direction = characterTransform.position - transform.position;
@@ -36,5 +37,10 @@ public class EnemyAttack : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
         }
+    }
+
+    public void SetDead(bool value)
+    {
+        isDead = value;
     }
 }
