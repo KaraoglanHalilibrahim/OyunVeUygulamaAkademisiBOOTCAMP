@@ -8,12 +8,14 @@ public class EnemyAttack : MonoBehaviour
 
     private bool attack = false;
     private bool isDead = false;
+    private int attackValue = 0;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Character"))
         {
             attack = true;
+            attackValue = Random.Range(1, 6);
         }
     }
 
@@ -28,6 +30,7 @@ public class EnemyAttack : MonoBehaviour
     private void Update()
     {
         animator.SetBool("attack", attack);
+        animator.SetInteger("attack?", attackValue);
 
         if (!isDead && attack)
         {
