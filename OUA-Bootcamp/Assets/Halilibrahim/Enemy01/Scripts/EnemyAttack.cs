@@ -34,11 +34,19 @@ public class EnemyAttack : MonoBehaviour
 
         if (!isDead && attack)
         {
-            // Karakterin karakter objesine doðru bakmasýný saðlar
             Vector3 direction = characterTransform.position - transform.position;
-            direction.y = 0f; // Sadece yatay düzlemde dönmesini saðlar
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+            direction.y = 0f;
+
+            if (direction != Vector3.zero)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(direction);
+                transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+            }
+            else
+            {
+                Quaternion zeroRotation = Quaternion.Euler(0f, 0f, 0f);
+                transform.rotation = Quaternion.Lerp(transform.rotation, zeroRotation, Time.deltaTime * rotationSpeed);
+            }
         }
     }
 
