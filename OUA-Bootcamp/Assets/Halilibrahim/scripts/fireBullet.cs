@@ -2,47 +2,69 @@ using UnityEngine;
 
 public class fireBullet : MonoBehaviour
 {
-    public GameObject mermiPrefab; // Kurþun objesinin prefab'ý
-    public Transform nisangahNoktasi; // Nisangah noktasýnýn Transform bileþeni
+    public GameObject mermiPrefab;
+    public Transform nisangahNoktasi;
 
-    public float atisGucu = 10000f; // Kurþun atýþ gücü (N)
-    public float atisHizi = 1000f; // Kurþun atýþ hýzý (m/s)
+    public float atisGucu = 1000f;
+    public float atisHizi = 100f;
 
-    private int ammo = 10; // Ammo miktarý ve baþlangýç deðeri
-    private bool atisYapilabilir = true; // Atýþ yapýlabilir durumu kontrol etmek için
-    private float zamanSuresi = 1f; // Atýþlar arasýndaki zaman sýnýrý
+    private int ammo = 4;
+    private bool atisYapilabilir = true;
+    private bool reload = false; // reload boolean'ý eklendi
+    private float zamanSuresi = 1f;
+    private float reloadSure = 5f; // Reload süresi
 
-    private float sonAtisZamani; // Son atýþýn yapýldýðý zaman
+    private float sonAtisZamani;
 
     void Start()
     {
-        sonAtisZamani = -zamanSuresi; // Oyun baþlangýcýnda son atýþ zamanýný sýfýrla
+        sonAtisZamani = -zamanSuresi;
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && atisYapilabilir && ammo > 0 && Time.time > sonAtisZamani + zamanSuresi) // Sol fare tuþuna basýldýðýnda, atýþ yapýlabilir durumdaysa, ammo miktarý 0'dan büyükse ve zaman sýnýrý geçilmiþse atýþ yap
+        if (reload) // Reload durumunda atýþ yapmaya izin verme
+        {
+            return;
+        }
+
+        if (Input.GetMouseButtonDown(0) && atisYapilabilir && ammo > 0 && Time.time > sonAtisZamani + zamanSuresi)
         {
             AtisYap();
-            ammo--; // Ammo miktarýný 1 azalt
-            sonAtisZamani = Time.time; // Son atýþ zamanýný güncelle
+            ammo--;
+            sonAtisZamani = Time.time;
 
             if (ammo == 0)
             {
-                atisYapilabilir = false; // Ammo miktarý 0 olduðunda atýþ yapýlabilir durumu false yap
+                atisYapilabilir = false;
+                StartCoroutine(ReloadDelay()); // ReloadDelay Coroutine'ini baþlat
             }
         }
     }
 
     void AtisYap()
     {
-        // Mermi objesini oluþtur ve nisangah noktasýna yerleþtir
         GameObject mermi = Instantiate(mermiPrefab, nisangahNoktasi.position, nisangahNoktasi.rotation);
-
-        // Kurþuna hýz uygula
         mermi.GetComponent<Rigidbody>().velocity = nisangahNoktasi.forward * atisHizi;
-
-        // Kurþuna bir kuvvet uygula (opsiyonel)
         mermi.GetComponent<Rigidbody>().AddForce(nisangahNoktasi.forward * atisGucu);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("ShotgunBullet"))
+        {
+            ammo += 4;
+            Destroy(other.gameObject);
+            StartCoroutine(ReloadDelay()); // ReloadDelay Coroutine'ini baþlat
+        }
+    }
+
+    private System.Collections.IEnumerator ReloadDelay()
+    {
+        reload = true;
+        yield return new WaitForSeconds(reloadSure);
+        reload = false;
+        ammo = 4;
+        atisYapilabilir = true;
     }
 }
