@@ -52,6 +52,6 @@ public class weapon_shotgun : MonoBehaviour
 
     private void UpdateAmmoText()
     {
-        ammoText.text = "Ammo: " + ammo.ToString();
+        ammoText.text = " " + ammo.ToString();
     }
 }
