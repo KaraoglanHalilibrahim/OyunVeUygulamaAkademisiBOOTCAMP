@@ -3,19 +3,28 @@ using UnityEngine;
 public class Punch : MonoBehaviour
 {
     public Animator animator;
-    private bool punch = false;
+    private bool leftPunch = false;
+    private bool rightPunch = false;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            punch = true;
+            leftPunch = true;
+            rightPunch = false;
         }
-        else if (Input.GetMouseButtonUp(0))
+        else if (Input.GetMouseButtonDown(1))
         {
-            punch = false;
+            rightPunch = true;
+            leftPunch = false;
+        }
+        else
+        {
+            leftPunch = false;
+            rightPunch = false;
         }
 
-        animator.SetBool("punch", punch);
+        animator.SetBool("leftpunch", leftPunch);
+        animator.SetBool("rightpunch", rightPunch);
     }
 }
