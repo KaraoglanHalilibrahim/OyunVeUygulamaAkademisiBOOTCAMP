@@ -3,6 +3,7 @@ using UnityEngine;
 public class enemy_death : MonoBehaviour
 {
     public Animator animator; // Animator bileþeni referansý
+    public CapsuleCollider capsuleCollider; // CapsuleCollider bileþeni referansý
     private bool isDead = false; // Ölüm durumu
 
     private void OnCollisionEnter(Collision collision)
@@ -11,6 +12,7 @@ public class enemy_death : MonoBehaviour
         {
             isDead = true; // Ölüm durumunu true yap
             animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
+            capsuleCollider.isTrigger = true; // CapsuleCollider'ýn isTrigger deðerini true yap
         }
     }
 }
