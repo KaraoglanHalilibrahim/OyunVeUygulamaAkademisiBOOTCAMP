@@ -2,44 +2,32 @@ using UnityEngine;
 
 public class Punches : MonoBehaviour
 {
-    public bool LeftPunch;
-    public bool RightPunch;
-    private Animator animator;
+    public Animator animator;
+    private bool leftPunch;
+    private bool rightPunch;
 
-    private void Awake()
+    void Update()
     {
-        animator = GetComponent<Animator>();
-    }
-
-    private void Update()
-    {
-        // Sol yumruk tuþuna basýlýrsa LeftPunch'ý true yap
         if (Input.GetMouseButtonDown(0))
         {
-            LeftPunch = true;
-            RightPunch = false;
+            leftPunch = true;
+            animator.SetBool("LeftPunch", leftPunch);
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            leftPunch = false;
+            animator.SetBool("LeftPunch", leftPunch);
         }
 
-        // Sað yumruk tuþuna basýlýrsa RightPunch'ý true yap
         if (Input.GetMouseButtonDown(1))
         {
-            RightPunch = true;
-            LeftPunch = false;
+            rightPunch = true;
+            animator.SetBool("RightPunch", rightPunch);
         }
-
-        // Animatördeki parametreleri güncelle
-        animator.SetBool("LeftPunch", LeftPunch);
-        animator.SetBool("RightPunch", RightPunch);
-
-        // Animasyon tamamlandýðýnda boolean deðerleri sýfýrla
-        if (LeftPunch || RightPunch)
+        else if (Input.GetMouseButtonUp(1))
         {
-            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-            if (stateInfo.IsName("LeftPunch") || stateInfo.IsName("RightPunch"))
-            {
-                LeftPunch = false;
-                RightPunch = false;
-            }
+            rightPunch = false;
+            animator.SetBool("RightPunch", rightPunch);
         }
     }
 }
