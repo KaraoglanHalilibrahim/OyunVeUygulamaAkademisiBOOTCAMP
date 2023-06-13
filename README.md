@@ -9,7 +9,7 @@
 |Beyza ÖZMADEN|Product Owner / Developer|
 |Polen MATUR|Developer|
 |Hüseyin BALDÖKTÜ|Developer|
-|BErkay TOPAKSU|Developer|
+|Berkay TOPAKSU|Developer|
 
 # ÜRÜN BİLGİLERİ
 ## Oyunun İsmi
