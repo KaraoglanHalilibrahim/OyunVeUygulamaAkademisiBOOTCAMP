@@ -5,6 +5,7 @@ public class Punches : MonoBehaviour
     public Animator animator;
     private bool leftPunch;
     private bool rightPunch;
+    private bool Run;
 
     void Update()
     {
@@ -28,6 +29,17 @@ public class Punches : MonoBehaviour
         {
             rightPunch = false;
             animator.SetBool("RightPunch", rightPunch);
+        }
+
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.Space))
+        {
+            Run = true;
+            animator.SetBool("Run", Run);
+        }
+        else if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.Space))
+        {
+            Run = false;
+            animator.SetBool("Run", Run);
         }
     }
 }
