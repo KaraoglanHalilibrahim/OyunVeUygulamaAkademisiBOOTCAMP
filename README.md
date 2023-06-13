@@ -1,6 +1,6 @@
 # TAKIM BİLGİLERİ
 ## Takım İsmi
- Belirlenecek
+**First Attempt**
 
 ## Takım Üyeleri
 |AD-SOYAD|TAKIMDAKİ ROLÜ|
@@ -19,6 +19,7 @@ Belirlenecek
 [....  Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
 
 ## Oyunun Açıklaması
+
 
 ## Oyunun Özellikleri
 
