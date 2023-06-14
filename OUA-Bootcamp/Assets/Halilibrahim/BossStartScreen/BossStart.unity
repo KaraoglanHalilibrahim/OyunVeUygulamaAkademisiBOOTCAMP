@@ -8974,7 +8974,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 2100000, guid: 0f0f044e5b5dcc74489ed9e744ed7b60, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9182,7 +9182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698180782}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.97, y: 3.121, z: -3.53}
+  m_LocalPosition: {x: -23.1, y: 7.91, z: 17.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26151,7 +26151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6492007886317437836}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.5, y: -4.27, z: 5.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26995,7 +26995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parkurNesnesi: {fileID: 1698180783}
   hareketHizi: 5
-  alttaGelmeYuksekligi: 10
+  alttaGelmeYuksekligi: 100
 --- !u!4 &6521307542847642179
 Transform:
   m_ObjectHideFlags: 0
