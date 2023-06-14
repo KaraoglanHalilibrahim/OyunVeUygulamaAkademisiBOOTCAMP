@@ -2375,6 +2375,7 @@ GameObject:
   - component: {fileID: 6157506500969671681}
   - component: {fileID: 6356111599660272367}
   - component: {fileID: 1735902715809435330}
+  - component: {fileID: -611401440982434825}
   m_Layer: 7
   m_Name: MainCharacter
   m_TagString: Character
@@ -2557,6 +2558,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Config: {fileID: 11400000, guid: 2b9f7fee52fbbff47b16c1aa0ba55aa1, type: 2}
   LinkedCamera: {fileID: 7305432133664205200}
+--- !u!114 &-611401440982434825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5919281609125810645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1 &6006621959644634769
 GameObject:
   m_ObjectHideFlags: 0
