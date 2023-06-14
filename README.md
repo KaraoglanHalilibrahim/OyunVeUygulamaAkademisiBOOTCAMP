@@ -16,7 +16,7 @@
 Belirlenecek
 
 ## Pruduct Baclog Url
-[....  Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
+[First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
 
 ## Oyunun Açıklaması
 
