@@ -6,6 +6,10 @@ using UnityEngine.InputSystem;
 
 public class CharacterMotor : MonoBehaviour
 {
+
+  
+
+
     [SerializeField] protected CharacterMotorConfig Config;
 
     protected Rigidbody LinkedRB;
