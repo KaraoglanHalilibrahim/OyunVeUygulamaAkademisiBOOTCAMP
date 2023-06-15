@@ -58,7 +58,7 @@ public class Punches : MonoBehaviour
         if (canPlayAudio)
         {
             // Rastgele bir indeks seçin (0. ve 3. arasýnda)
-            int randomIndex = Random.Range(0, audioSources.Length);
+            int randomIndex = Random.Range(0, 3);
 
             // Seçilen indeksteki Audio Source'u oynatýn
             audioSources[randomIndex].Play();

@@ -12,7 +12,6 @@ public class fireBullet : MonoBehaviour
     private bool atisYapilabilir = true;
     private bool reload = false; // reload boolean'ý eklendi
     private float zamanSuresi = 1f;
-    private float reloadSure = 5f; // Reload süresi
 
     private float sonAtisZamani;
 
@@ -23,12 +22,12 @@ public class fireBullet : MonoBehaviour
 
     void Update()
     {
-        if (reload) // Reload durumunda atýþ yapmaya izin verme
+        if (reload || ammo == 0) // Reload durumunda veya mermi kalmadýðýnda atýþ yapmaya izin verme
         {
             return;
         }
 
-        if (Input.GetMouseButtonDown(0) && atisYapilabilir && ammo > 0 && Time.time > sonAtisZamani + zamanSuresi)
+        if (Input.GetMouseButtonDown(0) && atisYapilabilir && Time.time > sonAtisZamani + zamanSuresi)
         {
             AtisYap();
             ammo--;
@@ -37,7 +36,6 @@ public class fireBullet : MonoBehaviour
             if (ammo == 0)
             {
                 atisYapilabilir = false;
-                StartCoroutine(ReloadDelay()); // ReloadDelay Coroutine'ini baþlat
             }
         }
     }
@@ -55,16 +53,10 @@ public class fireBullet : MonoBehaviour
         {
             ammo += 4;
             Destroy(other.gameObject);
-            StartCoroutine(ReloadDelay()); // ReloadDelay Coroutine'ini baþlat
+            atisYapilabilir = true;
+
         }
     }
 
-    private System.Collections.IEnumerator ReloadDelay()
-    {
-        reload = true;
-        yield return new WaitForSeconds(reloadSure);
-        reload = false;
-        ammo = 4;
-        atisYapilabilir = true;
-    }
+   
 }

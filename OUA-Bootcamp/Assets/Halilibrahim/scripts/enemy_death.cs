@@ -13,6 +13,8 @@ public class enemy_death : MonoBehaviour
             isDead = true; // Ölüm durumunu true yap
             animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
             capsuleCollider.isTrigger = true; // CapsuleCollider'ýn isTrigger deðerini true yap
+
+         
         }
     }
 }
