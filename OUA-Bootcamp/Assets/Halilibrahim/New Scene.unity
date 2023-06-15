@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 8493.726, g: 5627.7153, b: 4698.9614, a: 1}
+  m_IndirectSpecularColor: {r: 9213.185, g: 6510.9814, b: 6454.329, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -377,11 +377,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511897415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.062, y: 1.46, z: 0}
-  m_LocalScale: {x: 0.9818068, y: 1.6848787, z: 0.9818068}
+  m_LocalPosition: {x: -0.062, y: 1.253, z: -0.0000000033994}
+  m_LocalScale: {x: 1.4873637, y: 2.1273108, z: 1.0401988}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7496177699810596206}
+  m_Father: {fileID: 8536198467738064003}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &721412401
@@ -522,7 +522,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778542623}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -823,7 +823,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307154016}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3402,10 +3402,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.72621816
+  m_Radius: 1.1264919
   m_Height: 2.643828
   m_Direction: 1
-  m_Center: {x: 0.18974388, y: 1.0567443, z: -0.16855258}
+  m_Center: {x: 0.18974316, y: 1.0567443, z: -0.028591037}
 --- !u!4 &1594328242781955605
 Transform:
   m_ObjectHideFlags: 0
@@ -11385,7 +11385,6 @@ Transform:
   - {fileID: 6615948235659571252}
   - {fileID: 8536198467738064003}
   - {fileID: 4882819095422293159}
-  - {fileID: 511897420}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -24.145, z: 0}
@@ -12687,6 +12686,7 @@ Transform:
   - {fileID: 3815158254900623606}
   - {fileID: 8833995738095857319}
   - {fileID: 1075407635420552966}
+  - {fileID: 511897420}
   m_Father: {fileID: 7496177699810596206}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
