@@ -19,11 +19,34 @@ Belirlenecek
 [First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
 
 ## Oyunun Açıklaması
+Oyunumuzda ana karakter, yakın arkadaşıyla birlikte sakin bir dağ evinde çay içerken başlayan bir maceraya atılıyor.
 
+Gökyüzünden ani bir şekilde inen gizemli bir yaratık, arkadaşını kaçırıyor ve ana karakterimiz bayılıyor. Oyun, ana karakterin gözlerini açtığında arkadaşının kaybolduğunu hatırlamasıyla başlıyor. Karakterimiz, zorlu parkurları aşarak engelleri yenmeli ve yaratıkla mücadele ederek arkadaşını kurtarmalıdır.
+
+**Oynanış:**
+Oyun, oyunculara heyecan verici bir parkur deneyimi sunar. Ana karakterin kontrolünü ele alarak parkurları aşmalı, engelleri geçmeli ve düşmanlarla mücadele etmelisiniz. Yol boyunca topladığınız silahlarla ve mühimmatlarla karakterinizi  daha güçlü hale getirebilirsiniz. Hızlı reflekslere, stratejiye ve doğru zamanda doğru hamleleri yapmaya ihtiyacınız olacak.
 
 ## Oyunun Özellikleri
+ Heyecan verici bir aksiyon ve macera oyunudur. Oyunun amacı, ana karakterin kaybolan arkadaşını kurtarmak için zorlu parkurları aşması ve engelleri yenmesidir. İşte oyunun bazı özellikleri:
+
+**Etkileyici Parkur Tasarımları:** Oyun, farklı temalarda tasarlanmış etkileyici parkurlar sunar. Ormanlar, dağlar, çöller gibi farklı ortamlarda geçen parkurlar, görsel olarak zengin ve çeşitli bir deneyim sunar.
+
+**Zorlu Engeller ve Mücadeleler:** Parkurlar, çeşitli zorluklarla doludur. Engelleri aşmak için hızlı refleksler, doğru zamanlamalar ve akıllı hamleler yapmanız gerekecek. Ayrıca düşmanlarla karşılaşacak ve onlarla mücadele etmek için yeteneklerinizi kullanmanız gerekecek.
+
+**Boss Savaşları:** Oyunun belirli noktalarında epik boss savaşlarıyla karşılaşacaksınız. Bu büyük düşmanlara karşı strateji ve taktikler kullanmanız gerekecek. Her boss savaşı, zorlu bir mücadele ve ödüllerle dolu unutulmaz bir deneyim sunacak.
+
+**Sınırlı kaynak:** Oyunda merminiz sınırlıdır ve bunu çok dikkatli kullanmanız gerekmektedir.
+Toplanabilirler: Mermi elde edilebilecek yerler bulunmaktadır.
 
 ## Oyuncu Kitlesi
+
+**Macera Severler:** Macera dolu oyunlarla ilgilenen oyuncular, Parkur Oyunu: Kayıp Arkadaş'ın keyfini çıkaracak. Gizemli parkurları keşfetmek, zorlu engelleri aşmak ve heyecan verici hikaye ile etkileşime geçmek isteyen oyuncular bu oyunu sevecekler.
+
+**Aksiyon Tutkunları:** Hızlı ve akıcı oynanış mekanikleri, düşmanlarla savaşma ve zorlu engelleri aşma gereklilikleriyle aksiyon severleri cezbedecek. Adrenalin dolu bir deneyim yaşamak isteyen oyuncular, Parkur Oyunu: Kayıp Arkadaş'ı tercih edebilirler.
+
+**Strateji Meraklıları:** Oyunda düşmanlarla mücadele etmek, parkurları geçmek ve boss savaşlarını kazanmak için stratejik düşünme yetenekleri gereklidir. Strateji yapmayı seven oyuncular, yetenek ağacını doğru bir şekilde geliştirerek taktiksel avantajlar elde etmekten keyif alacaklar.
+
+**Görsel Deneyim Arayanlar:** Oyunun etkileyici parkur tasarımları ve görsel efektleri, görsel deneyim arayan oyuncuları tatmin edecektir. Farklı ortamlarda geçen parkurlar ve göz alıcı grafikler, oyunculara görsel olarak zengin bir oyun dünyası sunar.
 
 ## `JURİYE NOT`
 
