@@ -24,7 +24,7 @@ Oyunumuzda ana karakter, yakın arkadaşıyla birlikte sakin bir dağ evinde ça
 Gökyüzünden ani bir şekilde inen gizemli bir yaratık, arkadaşını kaçırıyor ve ana karakterimiz bayılıyor. Oyun, ana karakterin gözlerini açtığında arkadaşının kaybolduğunu hatırlamasıyla başlıyor. Karakterimiz, zorlu parkurları aşarak engelleri yenmeli ve yaratıkla mücadele ederek arkadaşını kurtarmalıdır.
 
 **Oynanış:**
-Oyun, oyunculara heyecan verici bir parkur deneyimi sunar. Ana karakterin kontrolünü ele alarak parkurları aşmalı, engelleri geçmeli ve düşmanlarla mücadele etmelisiniz. Yol boyunca topladığınız silahlarla ve mühimmatlarla karakterinizi  daha güçlü hale getirebilirsiniz. Hızlı reflekslere, stratejiye ve doğru zamanda doğru hamleleri yapmaya ihtiyacınız olacak.
+Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin kontrolünü ele alarak parkurları aşmalı, engelleri geçmeli ve düşmanlarla mücadele etmelisiniz. Yol boyunca topladığınız silahlarla ve mühimmatlarla karakterinizi  daha güçlü hale getirebilirsiniz. Hızlı reflekslere, stratejiye ve doğru zamanda doğru hamleleri yapmaya ihtiyacınız olacak.
 
 ## Oyunun Özellikleri
  Heyecan verici bir aksiyon ve macera oyunudur. Oyunun amacı, ana karakterin kaybolan arkadaşını kurtarmak için zorlu parkurları aşması ve engelleri yenmesidir. İşte oyunun bazı özellikleri:
