@@ -56,6 +56,23 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-6713576834845640292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1818f621d86433848a4257ef049ef956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClips:
+  - {fileID: 8300000, guid: 0e9bca6dd55d7e541a865752da6415f5, type: 3}
+  - {fileID: 8300000, guid: 28406bf68add30e4e89d6cd063fb84e6, type: 3}
+  - {fileID: 8300000, guid: c266e86e5ec11e344bf66dede26cbc46, type: 3}
+  - {fileID: 8300000, guid: 90fb91c5d9f18df4183363d36d921429, type: 3}
 --- !u!1102 &-4713950889081306881
 AnimatorState:
   serializedVersion: 6
@@ -401,7 +418,8 @@ AnimatorState:
   - {fileID: -7876023495555967939}
   - {fileID: -3038759635020711157}
   - {fileID: -8122252891412323156}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 7303132476224325434}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -430,7 +448,8 @@ AnimatorState:
   - {fileID: -2061465626140333092}
   - {fileID: -3324719853310449139}
   - {fileID: -664381420484398472}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -6713576834845640292}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -445,6 +464,23 @@ AnimatorState:
   m_MirrorParameter: LeftPunch
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &7303132476224325434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1818f621d86433848a4257ef049ef956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClips:
+  - {fileID: 8300000, guid: 0e9bca6dd55d7e541a865752da6415f5, type: 3}
+  - {fileID: 8300000, guid: 28406bf68add30e4e89d6cd063fb84e6, type: 3}
+  - {fileID: 8300000, guid: c266e86e5ec11e344bf66dede26cbc46, type: 3}
+  - {fileID: 8300000, guid: 90fb91c5d9f18df4183363d36d921429, type: 3}
 --- !u!1102 &8228594893586733208
 AnimatorState:
   serializedVersion: 6
