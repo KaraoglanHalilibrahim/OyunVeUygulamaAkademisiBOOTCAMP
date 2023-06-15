@@ -8,7 +8,7 @@ public class weapon_shotgun : MonoBehaviour
     private bool canShoot = true;
     private bool reload = false;
     private float shootCooldown = 1.0f;
-    private float reloadTime = 5.0f; // Yeniden yükleme süresi
+    private float reloadTime = 0f; // Yeniden yükleme süresi
     private Animator animator;
     public Text ammoText;
     public AudioSource audioSource;

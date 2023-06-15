@@ -54,9 +54,8 @@ public class fireBullet : MonoBehaviour
             ammo += 4;
             Destroy(other.gameObject);
             atisYapilabilir = true;
-
         }
     }
 
-   
+    
 }
