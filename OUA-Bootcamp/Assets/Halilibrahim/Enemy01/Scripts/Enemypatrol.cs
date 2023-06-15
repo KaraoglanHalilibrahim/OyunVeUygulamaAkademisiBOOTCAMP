@@ -6,16 +6,18 @@ public class Enemypatrol : MonoBehaviour
     public Transform target;
     public float minChaseSpeed = 3f;
     public float maxChaseSpeed = 5f;
-    public float delayBeforeMovement = 1.5f;
-    public float patrolStopDuration = 1.5f;
+    public float delayBeforeMovement = 1.0f;
+    public float patrolStopDuration = 1.0f;
 
     private Animator animator;
     private NavMeshAgent agent;
     private bool isDead = false;
-    private bool canMove = false;
-    private bool isPatrolling = false;
+    private bool canMove = true;
+    private bool isPatrolling = true;
     private float currentSpeed;
     private float timeSinceStop = 0f;
+
+    private float timeSinceHit = 0f;
 
     void Start()
     {
@@ -31,22 +33,26 @@ public class Enemypatrol : MonoBehaviour
         {
             if (canMove)
             {
-                if (!isPatrolling && animator.GetInteger("hit") != 0)
+                if (animator.GetInteger("hit") != 0)
                 {
-                    isPatrolling = true;
-                    Invoke("StopPatrolling", patrolStopDuration);
+                    StopMovement();
+                    isPatrolling = false;
+                    timeSinceHit = Time.time;
                 }
-                ChaseTarget();
-                UpdateAnimation();
+                else if (!isPatrolling && Time.time - timeSinceHit >= patrolStopDuration)
+                {
+                    ResumePatrolling();
+                }
+
+                if (isPatrolling)
+                {
+                    ChaseTarget();
+                    UpdateAnimation();
+                }
             }
-            else
+            else if (isPatrolling && Time.time - timeSinceStop >= delayBeforeMovement)
             {
-                timeSinceStop += Time.deltaTime;
-                if (timeSinceStop >= delayBeforeMovement)
-                {
-                    canMove = true;
-                    agent.speed = currentSpeed;
-                }
+                ResumePatrolling();
             }
         }
         else
@@ -71,13 +77,15 @@ public class Enemypatrol : MonoBehaviour
 
     void StopMovement()
     {
-        agent.velocity = Vector3.zero;
         agent.isStopped = true;
     }
 
-    void StopPatrolling()
+    void ResumePatrolling()
     {
-        isPatrolling = false;
+        canMove = true;
+        agent.speed = currentSpeed;
+        isPatrolling = true;
+        agent.isStopped = false; // Devriye yeniden baþladýðýnda harekete devam et
     }
 
     float GetRandomSpeed()
@@ -95,9 +103,10 @@ public class Enemypatrol : MonoBehaviour
         }
         else
         {
-            timeSinceStop = 0f;
+            timeSinceStop = Time.time;
             canMove = false;
             agent.speed = 0f;
+            agent.isStopped = true; // Devriye durduðunda hareketi duraklat
         }
     }
 }
