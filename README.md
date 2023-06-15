@@ -36,7 +36,7 @@ Oyun, oyunculara heyecan verici bir parkur deneyimi sunar. Ana karakterin kontro
 **Boss Savaşları:** Oyunun belirli noktalarında epik boss savaşlarıyla karşılaşacaksınız. Bu büyük düşmanlara karşı strateji ve taktikler kullanmanız gerekecek. Her boss savaşı, zorlu bir mücadele ve ödüllerle dolu unutulmaz bir deneyim sunacak.
 
 **Sınırlı kaynak:** Oyunda merminiz sınırlıdır ve bunu çok dikkatli kullanmanız gerekmektedir.
-Toplanabilirler: Mermi elde edilebilecek yerler bulunmaktadır.
+**Toplanabilirler:** Mermi elde edilebilecek yerler bulunmaktadır.
 
 ## Oyuncu Kitlesi
 
