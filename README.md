@@ -41,7 +41,9 @@ Oyun, oyunculara heyecan verici bir parkur deneyimi sunar. Ana karakterin kontro
 
 ## Oyuncu Kitlesi
 
-**Macera Severler:** Macera dolu oyunlarla ilgilenen oyuncular, Parkur Oyunu: Kayıp Arkadaş'ın keyfini çıkaracak. Gizemli parkurları keşfetmek, zorlu engelleri aşmak ve heyecan verici hikaye ile etkileşime geçmek isteyen oyuncular bu oyunu sevecekler.
+**Macera Severler:** Macera dolu oyunlarla ilgilenen oyuncular, 
+
+**Parkur Oyunu:** Kayıp Arkadaş'ın keyfini çıkaracak. Gizemli parkurları keşfetmek, zorlu engelleri aşmak ve heyecan verici hikaye ile etkileşime geçmek isteyen oyuncular bu oyunu sevecekler.
 
 **Aksiyon Tutkunları:** Hızlı ve akıcı oynanış mekanikleri, düşmanlarla savaşma ve zorlu engelleri aşma gereklilikleriyle aksiyon severleri cezbedecek. Adrenalin dolu bir deneyim yaşamak isteyen oyuncular, Parkur Oyunu: Kayıp Arkadaş'ı tercih edebilirler.
 
