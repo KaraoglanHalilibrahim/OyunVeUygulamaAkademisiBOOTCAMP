@@ -10,6 +10,8 @@ public class enemy_death : MonoBehaviour
     private bool isFrozen = false; // Hareketin durma durumu
     private float freezeDuration = 0f; // Hareketin durma süresi
     private float freezeTimer = 0f; // Hareketin durma süresi için zamanlayýcý
+    private bool isPunching = false; // Punching durumu
+    private bool canTakeDamage = true; // Hasar alabilme durumu
 
     private void Update()
     {
@@ -25,6 +27,8 @@ public class enemy_death : MonoBehaviour
                 // Hareketin tekrar baþlamasýný saðla
             }
         }
+
+        
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -39,7 +43,7 @@ public class enemy_death : MonoBehaviour
 
             // Saðlýk deðerinden rastgele düþüþ
             int damage = Random.Range(40, 51);
-           
+
             health -= damage;
 
             if (health <= 0 && !isDead)
@@ -65,14 +69,18 @@ public class enemy_death : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Punch"))
         {
-            animator.SetBool("punching?", true); // Animator'deki "punching?" parametresini true yap
-            health -= 15; // punching? true olduðunda health deðerinden 15 azalt
-            if (health <= 0 && !isDead)
+            if (!isPunching)
             {
-                health = 0;
-                isDead = true;
-                animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
-                // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
+                animator.SetBool("punching?", true); // Animator'deki "punching?" parametresini true yap
+                isPunching = true;
+                health -= 15; // punching? true olduðunda health deðerinden 15 azalt
+                if (health <= 0 && !isDead)
+                {
+                    health = 0;
+                    isDead = true;
+                    animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
+                    // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
+                }
             }
         }
     }
@@ -82,6 +90,8 @@ public class enemy_death : MonoBehaviour
         if (other.gameObject.CompareTag("Punch"))
         {
             animator.SetBool("punching?", false); // Animator'deki "punching?" parametresini false yap
+            isPunching = false;
+            canTakeDamage = true;
         }
     }
 }
