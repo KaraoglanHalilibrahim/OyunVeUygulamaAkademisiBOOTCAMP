@@ -6,14 +6,10 @@ public class enemy_death : MonoBehaviour
     public CapsuleCollider capsuleCollider; // CapsuleCollider bileþeni referansý
     private bool isDead = false; // Ölüm durumu
     private int hit = 0; // Hit deðeri
-    private int health = 100; // Saðlýk deðeri
+    [SerializeField] private int health = 100; // Saðlýk deðeri
     private bool isFrozen = false; // Hareketin durma durumu
     private float freezeDuration = 0f; // Hareketin durma süresi
     private float freezeTimer = 0f; // Hareketin durma süresi için zamanlayýcý
-
-    private void Start()
-    {
-    }
 
     private void Update()
     {
@@ -43,15 +39,17 @@ public class enemy_death : MonoBehaviour
 
             // Saðlýk deðerinden rastgele düþüþ
             int damage = Random.Range(40, 51);
+           
             health -= damage;
 
-            if (health <= 0)
+            if (health <= 0 && !isDead)
             {
                 health = 0;
                 isDead = true;
+                // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
+                animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
             }
 
-          
             // Hit deðerini sýfýrlama
             hit = 0;
             Invoke(nameof(ResetHit), 1f);
@@ -61,5 +59,29 @@ public class enemy_death : MonoBehaviour
     private void ResetHit()
     {
         animator.SetInteger("hit", 0);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Punch"))
+        {
+            animator.SetBool("punching?", true); // Animator'deki "punching?" parametresini true yap
+            health -= 15; // punching? true olduðunda health deðerinden 15 azalt
+            if (health <= 0 && !isDead)
+            {
+                health = 0;
+                isDead = true;
+                animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
+                // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Punch"))
+        {
+            animator.SetBool("punching?", false); // Animator'deki "punching?" parametresini false yap
+        }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - SpawnPoint
   - Enemy
   - ShotgunBullet
+  - Punch
   layers:
   - Default
   - TransparentFX
