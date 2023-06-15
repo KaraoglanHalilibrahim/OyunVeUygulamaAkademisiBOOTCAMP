@@ -6,8 +6,8 @@ public class Enemypatrol : MonoBehaviour
     public Transform target;
     public float minChaseSpeed = 3f;
     public float maxChaseSpeed = 5f;
-    public float delayBeforeMovement = 1.3f;
-    public float patrolStopDuration = 1.3f;
+    public float delayBeforeMovement = 0f;
+    public float patrolStopDuration = 0f;
 
     private Animator animator;
     private NavMeshAgent agent;

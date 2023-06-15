@@ -8,7 +8,7 @@ public class enemy_death : MonoBehaviour
     private int hit = 0; // Hit deðeri
     private int health = 100; // Saðlýk deðeri
     private bool isFrozen = false; // Hareketin durma durumu
-    private float freezeDuration = 1f; // Hareketin durma süresi
+    private float freezeDuration = 0f; // Hareketin durma süresi
     private float freezeTimer = 0f; // Hareketin durma süresi için zamanlayýcý
 
     private void Start()
