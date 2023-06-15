@@ -7,12 +7,13 @@ public class Enemypatrol : MonoBehaviour
     public float minChaseSpeed = 3f;
     public float maxChaseSpeed = 5f;
     public float delayBeforeMovement = 1.5f;
+    public float patrolStopDuration = 1.5f;
 
     private Animator animator;
     private NavMeshAgent agent;
     private bool isDead = false;
     private bool canMove = false;
-
+    private bool isPatrolling = false;
     private float currentSpeed;
     private float timeSinceStop = 0f;
 
@@ -30,6 +31,11 @@ public class Enemypatrol : MonoBehaviour
         {
             if (canMove)
             {
+                if (!isPatrolling && animator.GetInteger("hit") != 0)
+                {
+                    isPatrolling = true;
+                    Invoke("StopPatrolling", patrolStopDuration);
+                }
                 ChaseTarget();
                 UpdateAnimation();
             }
@@ -67,6 +73,11 @@ public class Enemypatrol : MonoBehaviour
     {
         agent.velocity = Vector3.zero;
         agent.isStopped = true;
+    }
+
+    void StopPatrolling()
+    {
+        isPatrolling = false;
     }
 
     float GetRandomSpeed()
