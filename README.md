@@ -45,9 +45,9 @@ Oyun, oyunculara heyecan verici bir parkur deneyimi sunar. Ana karakterin kontro
 
 **Parkur Oyunu:** Kayıp Arkadaş'ın keyfini çıkaracak. Gizemli parkurları keşfetmek, zorlu engelleri aşmak ve heyecan verici hikaye ile etkileşime geçmek isteyen oyuncular bu oyunu sevecekler.
 
-**Aksiyon Tutkunları:** Hızlı ve akıcı oynanış mekanikleri, düşmanlarla savaşma ve zorlu engelleri aşma gereklilikleriyle aksiyon severleri cezbedecek. Adrenalin dolu bir deneyim yaşamak isteyen oyuncular, Parkur Oyunu: Kayıp Arkadaş'ı tercih edebilirler.
+**Aksiyon Tutkunları:** Hızlı ve akıcı oynanış mekanikleri, düşmanlarla savaşma ve zorlu engelleri aşma gereklilikleriyle aksiyon severleri cezbedecek. Adrenalin dolu bir deneyim yaşamak isteyen oyuncular,
 
-**Strateji Meraklıları:** Oyunda düşmanlarla mücadele etmek, parkurları geçmek ve boss savaşlarını kazanmak için stratejik düşünme yetenekleri gereklidir. Strateji yapmayı seven oyuncular, yetenek ağacını doğru bir şekilde geliştirerek taktiksel avantajlar elde etmekten keyif alacaklar.
+**Strateji Meraklıları:** Oyunda düşmanlarla mücadele etmek, parkurları geçmek ve boss savaşlarını kazanmak için stratejik düşünme yetenekleri gereklidir.
 
 **Görsel Deneyim Arayanlar:** Oyunun etkileyici parkur tasarımları ve görsel efektleri, görsel deneyim arayan oyuncuları tatmin edecektir. Farklı ortamlarda geçen parkurlar ve göz alıcı grafikler, oyunculara görsel olarak zengin bir oyun dünyası sunar.
 
