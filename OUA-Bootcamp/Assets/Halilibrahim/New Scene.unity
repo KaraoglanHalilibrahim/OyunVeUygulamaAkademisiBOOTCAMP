@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 8493.726, g: 5627.7153, b: 4698.9614, a: 1}
+  m_IndirectSpecularColor: {r: 9214.376, g: 6511.6064, b: 6454.7197, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5364,6 +5364,7 @@ MonoBehaviour:
   minChaseSpeed: 3
   maxChaseSpeed: 3
   delayBeforeMovement: 0
+  patrolStopDuration: 1.5
 --- !u!1 &3002757914073823954
 GameObject:
   m_ObjectHideFlags: 0
@@ -10335,7 +10336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3687713796915834052}
-  audioSources: []
+  audioSources:
+  - {fileID: 7138616776542459604}
 --- !u!82 &7138616776542459601
 AudioSource:
   m_ObjectHideFlags: 0
