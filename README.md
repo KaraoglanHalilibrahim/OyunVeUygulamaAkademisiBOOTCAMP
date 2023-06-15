@@ -29,7 +29,7 @@ Oyun, oyunculara heyecan verici bir parkur deneyimi sunar. Ana karakterin kontro
 ## Oyunun Özellikleri
  Heyecan verici bir aksiyon ve macera oyunudur. Oyunun amacı, ana karakterin kaybolan arkadaşını kurtarmak için zorlu parkurları aşması ve engelleri yenmesidir. İşte oyunun bazı özellikleri:
 
-**Etkileyici Parkur Tasarımları:** Oyun, farklı temalarda tasarlanmış etkileyici parkurlar sunar. Ormanlar, dağlar, çöller gibi farklı ortamlarda geçen parkurlar, görsel olarak zengin ve çeşitli bir deneyim sunar.
+**Etkileyici Parkur Tasarımları:** Oyun, farklı temalarda tasarlanmış etkileyici parkurlar sunar. Farklı ortamlarda geçen parkurlar, görsel olarak zengin ve çeşitli bir deneyim sunar.
 
 **Zorlu Engeller ve Mücadeleler:** Parkurlar, çeşitli zorluklarla doludur. Engelleri aşmak için hızlı refleksler, doğru zamanlamalar ve akıllı hamleler yapmanız gerekecek. Ayrıca düşmanlarla karşılaşacak ve onlarla mücadele etmek için yeteneklerinizi kullanmanız gerekecek.
 
