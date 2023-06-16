@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9212.755, g: 6510.372, b: 6453.876, a: 1}
+  m_IndirectSpecularColor: {r: 9212.755, g: 6510.3877, b: 6453.907, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13184,7 +13184,7 @@ GameObject:
   - component: {fileID: 7068504223023522588}
   - component: {fileID: 7158749826279389186}
   m_Layer: 0
-  m_Name: Enemy01 (1)
+  m_Name: EnemySkelton
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17361,7 +17361,7 @@ GameObject:
   - component: {fileID: 189386550491125356}
   - component: {fileID: 4181217015774116603}
   m_Layer: 0
-  m_Name: Enemy01
+  m_Name: EnemyBull
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
