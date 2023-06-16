@@ -3,23 +3,35 @@ using UnityEngine;
 public class PunchColliderRight : MonoBehaviour
 {
     public GameObject PunchColliderLeftObject;
+    private Animator animator;
+    private bool isColliderActive;
 
     private void Start()
     {
         // Baþlangýçta objeyi deaktif hale getir
         PunchColliderLeftObject.SetActive(false);
+        animator = GetComponent<Animator>();
+        isColliderActive = false;
     }
 
     private void Update()
     {
-        // Sol mouse tuþuna basýldýðýnda
-        if (Input.GetMouseButtonDown(1))
+        // Animatördeki RightPunch deðeri true ise
+        if (animator.GetBool("RightPunch"))
         {
-            // PunchColliderLeft objesini aktif hale getir
-            PunchColliderLeftObject.SetActive(true);
-
-            // 0.7 saniye sonra objeyi tekrar deaktif hale getir
-            Invoke("DeactivateCollider", 0.7f);
+            // PunchColliderLeft objesini aktif hale getir ve zamanlayýcýyý baþlat
+            if (!isColliderActive)
+            {
+                PunchColliderLeftObject.SetActive(true);
+                isColliderActive = true;
+                Invoke("DeactivateCollider", 0.7f);
+            }
+        }
+        else
+        {
+            // PunchColliderLeft objesini deaktif hale getir
+            PunchColliderLeftObject.SetActive(false);
+            isColliderActive = false;
         }
     }
 
@@ -27,5 +39,6 @@ public class PunchColliderRight : MonoBehaviour
     {
         // PunchColliderLeft objesini deaktif hale getir
         PunchColliderLeftObject.SetActive(false);
+        isColliderActive = false;
     }
 }

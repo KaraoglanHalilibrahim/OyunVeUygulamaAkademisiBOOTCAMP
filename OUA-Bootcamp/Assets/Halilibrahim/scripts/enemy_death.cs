@@ -11,7 +11,7 @@ public class enemy_death : MonoBehaviour
     private float freezeDuration = 0f; // Hareketin durma süresi
     private float freezeTimer = 0f; // Hareketin durma süresi için zamanlayýcý
     private bool isPunching = false; // Punching durumu
-    private bool canTakeDamage = true; // Hasar alabilme durumu
+    
 
     private void Update()
     {
@@ -91,7 +91,7 @@ public class enemy_death : MonoBehaviour
         {
             animator.SetBool("punching?", false); // Animator'deki "punching?" parametresini false yap
             isPunching = false;
-            canTakeDamage = true;
+            
         }
     }
 }

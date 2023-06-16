@@ -1,45 +1,77 @@
+using System.Collections;
 using UnityEngine;
 
-public class Punches : MonoBehaviour
+public class ExampleScript : MonoBehaviour
 {
     public Animator animator;
-    private bool leftPunch;
-    private bool rightPunch;
-    private bool Run;
 
-    void Update()
+    private bool leftPunch = false;
+    private bool rightPunch = false;
+
+    private bool canLeftPunch = true;
+    private bool canRightPunch = true;
+
+    private void Start()
     {
-        if (Input.GetMouseButtonDown(0))
+        animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && canLeftPunch)
         {
             leftPunch = true;
             animator.SetBool("LeftPunch", leftPunch);
+            canLeftPunch = false;
+            StartCoroutine(EnableLeftPunch());
         }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            leftPunch = false;
-            animator.SetBool("LeftPunch", leftPunch);
-        }
-
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && canRightPunch)
         {
             rightPunch = true;
             animator.SetBool("RightPunch", rightPunch);
-        }
-        else if (Input.GetMouseButtonUp(1))
-        {
-            rightPunch = false;
-            animator.SetBool("RightPunch", rightPunch);
+            canRightPunch = false;
+            StartCoroutine(EnableRightPunch());
         }
 
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
+        if (Input.GetMouseButtonUp(0))
         {
-            Run = true;
-            animator.SetBool("Run", Run);
+            StartCoroutine(DelayedExecutionLeft());
         }
-        else if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
+        if (Input.GetMouseButtonUp(1))
         {
-            Run = false;
-            animator.SetBool("Run", Run);
+            StartCoroutine(DelayedExecutionRight());
         }
+    }
+
+    private IEnumerator DelayedExecutionLeft()
+    {
+        yield return new WaitForSeconds(0.7f);
+
+        leftPunch = false;
+        animator.SetBool("LeftPunch", leftPunch);
+
+        Debug.Log("Sol yumruk: " + leftPunch);
+    }
+
+    private IEnumerator DelayedExecutionRight()
+    {
+        yield return new WaitForSeconds(0.7f);
+
+        rightPunch = false;
+        animator.SetBool("RightPunch", rightPunch);
+
+        Debug.Log("Sað yumruk: " + rightPunch);
+    }
+
+    private IEnumerator EnableLeftPunch()
+    {
+        yield return new WaitForSeconds(0.7f);
+        canLeftPunch = true;
+    }
+
+    private IEnumerator EnableRightPunch()
+    {
+        yield return new WaitForSeconds(0.7f);
+        canRightPunch = true;
     }
 }

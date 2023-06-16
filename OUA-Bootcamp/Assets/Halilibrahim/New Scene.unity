@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9213.185, g: 6510.9814, b: 6454.329, a: 1}
+  m_IndirectSpecularColor: {r: 9212.755, g: 6510.372, b: 6453.8916, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -377,8 +377,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511897415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.062, y: 1.253, z: -0.0000000033994}
-  m_LocalScale: {x: 1.4873637, y: 2.1273108, z: 1.0401988}
+  m_LocalPosition: {x: -0.062, y: 1.253, z: -0.0000000067988}
+  m_LocalScale: {x: 1.4873637, y: 2.1273108, z: 1.5386621}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8536198467738064003}
@@ -487,8 +487,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778542623}
   m_LocalRotation: {x: -0.04142052, y: 0.71877366, z: -0.6365483, w: 0.27650493}
-  m_LocalPosition: {x: -0.00111, y: 0.00164, z: 0.00038}
-  m_LocalScale: {x: 0.0014582406, y: 0.001199761, z: 0.008428703}
+  m_LocalPosition: {x: -0.00178, y: 0.00376, z: -0.0002}
+  m_LocalScale: {x: 0.0018911822, y: 0.001647376, z: -0.010366075}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 384675025340421930}
@@ -788,8 +788,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307154016}
   m_LocalRotation: {x: 0.38785753, y: -0.75121397, z: 0.31788528, w: 0.42917725}
-  m_LocalPosition: {x: 0.00111, y: 0.00262, z: 0.00145}
-  m_LocalScale: {x: 0.0014582403, y: 0.0021822164, z: 0.0084287}
+  m_LocalPosition: {x: 0.00167, y: 0.00392, z: 0.00181}
+  m_LocalScale: {x: 0.0018623187, y: 0.0019684029, z: 0.008952903}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8072860553178878164}
@@ -3402,10 +3402,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.1264919
-  m_Height: 2.643828
+  m_Radius: 1.4395533
+  m_Height: 2.8791065
   m_Direction: 1
-  m_Center: {x: 0.18974316, y: 1.0567443, z: -0.028591037}
+  m_Center: {x: 0.18974316, y: 1.0567443, z: -0.07729697}
 --- !u!4 &1594328242781955605
 Transform:
   m_ObjectHideFlags: 0
