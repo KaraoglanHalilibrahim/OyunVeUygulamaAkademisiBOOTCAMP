@@ -7,7 +7,7 @@ public class enemy_death : MonoBehaviour
     public GameObject enemySphere; // EnemySphere objesinin referansý
     private bool isDead = false; // Ölüm durumu
     private int hit = 0; // Hit deðeri
-    [SerializeField] private int health = 100; // Saðlýk deðeri
+    [SerializeField] public int health = 100; // Saðlýk deðeri
     private bool isFrozen = false; // Hareketin durma durumu
     private float freezeDuration = 0f; // Hareketin durma süresi
     private float freezeTimer = 0f; // Hareketin durma süresi için zamanlayýcý
