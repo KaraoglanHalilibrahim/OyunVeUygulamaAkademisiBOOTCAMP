@@ -4,14 +4,14 @@ public class enemy_death : MonoBehaviour
 {
     public Animator animator; // Animator bileþeni referansý
     public CapsuleCollider capsuleCollider; // CapsuleCollider bileþeni referansý
+    public GameObject enemySphere; // EnemySphere objesinin referansý
     private bool isDead = false; // Ölüm durumu
     private int hit = 0; // Hit deðeri
     [SerializeField] private int health = 100; // Saðlýk deðeri
     private bool isFrozen = false; // Hareketin durma durumu
     private float freezeDuration = 0f; // Hareketin durma süresi
     private float freezeTimer = 0f; // Hareketin durma süresi için zamanlayýcý
-    private bool isPunching = false; // Punching durumu
-    
+
 
     private void Update()
     {
@@ -28,7 +28,17 @@ public class enemy_death : MonoBehaviour
             }
         }
 
-        
+        if (isDead)
+        {
+            // Ölüm sonrasý 3 saniye bekledikten sonra karakteri sahneden sil
+            Invoke(nameof(DestroyCharacter), 3f);
+        }
+    }
+
+    private void DestroyCharacter()
+    {
+        // Karakteri sahneden sil
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -52,6 +62,12 @@ public class enemy_death : MonoBehaviour
                 isDead = true;
                 // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
                 animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
+
+                // EnemySphere objesini devre dýþý býrak
+                if (enemySphere != null)
+                {
+                    enemySphere.SetActive(false);
+                }
             }
 
             // Hit deðerini sýfýrlama
@@ -69,19 +85,28 @@ public class enemy_death : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Punch"))
         {
-            if (!isPunching)
-            {
+            
                 animator.SetBool("punching?", true); // Animator'deki "punching?" parametresini true yap
-                isPunching = true;
-                health -= 15; // punching? true olduðunda health deðerinden 15 azalt
-                if (health <= 0 && !isDead)
+                
+                if(animator.GetBool("punching?") == true)
+            {
+                health -= 7; // punching? true olduðunda health deðerinden  azalt
+                animator.SetBool("punching?", false); // Animator'deki "punching?" parametresini false yap
+
+            }
+
+            if (health <= 0 && !isDead)
+            {
+                health = 0;
+                isDead = true;
+                animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
+                                                   // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
+                if (enemySphere != null)
                 {
-                    health = 0;
-                    isDead = true;
-                    animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
-                    // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
+                    enemySphere.SetActive(false);
                 }
             }
+
         }
     }
 
@@ -90,8 +115,7 @@ public class enemy_death : MonoBehaviour
         if (other.gameObject.CompareTag("Punch"))
         {
             animator.SetBool("punching?", false); // Animator'deki "punching?" parametresini false yap
-            isPunching = false;
-            
+
         }
     }
 }

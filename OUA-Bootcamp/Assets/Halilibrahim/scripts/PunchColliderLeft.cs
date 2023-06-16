@@ -24,7 +24,7 @@ public class PunchColliderLeft : MonoBehaviour
             {
                 PunchColliderLeftObject.SetActive(true);
                 isColliderActive = true;
-                Invoke("DeactivateCollider", 0.7f);
+                Invoke("DeactivateCollider", 0.1f);
             }
         }
         else

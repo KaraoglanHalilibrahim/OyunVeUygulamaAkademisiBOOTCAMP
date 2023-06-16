@@ -45,7 +45,7 @@ public class ExampleScript : MonoBehaviour
 
     private IEnumerator DelayedExecutionLeft()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0f);
 
         leftPunch = false;
         animator.SetBool("LeftPunch", leftPunch);
@@ -55,7 +55,7 @@ public class ExampleScript : MonoBehaviour
 
     private IEnumerator DelayedExecutionRight()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0f);
 
         rightPunch = false;
         animator.SetBool("RightPunch", rightPunch);
@@ -65,13 +65,13 @@ public class ExampleScript : MonoBehaviour
 
     private IEnumerator EnableLeftPunch()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0f);
         canLeftPunch = true;
     }
 
     private IEnumerator EnableRightPunch()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0f);
         canRightPunch = true;
     }
 }

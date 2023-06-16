@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9212.755, g: 6510.372, b: 6453.8916, a: 1}
+  m_IndirectSpecularColor: {r: 9213.185, g: 6510.9346, b: 6454.1416, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 511897416}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: EnemySphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -487,8 +487,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778542623}
   m_LocalRotation: {x: -0.04142052, y: 0.71877366, z: -0.6365483, w: 0.27650493}
-  m_LocalPosition: {x: -0.00178, y: 0.00376, z: -0.0002}
-  m_LocalScale: {x: 0.0018911822, y: 0.001647376, z: -0.010366075}
+  m_LocalPosition: {x: -0.00327, y: 0.00627, z: 0.00056}
+  m_LocalScale: {x: 0.00967965, y: 0.007778735, z: 0.008952903}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 384675025340421930}
@@ -789,7 +789,7 @@ Transform:
   m_GameObject: {fileID: 1307154016}
   m_LocalRotation: {x: 0.38785753, y: -0.75121397, z: 0.31788528, w: 0.42917725}
   m_LocalPosition: {x: 0.00167, y: 0.00392, z: 0.00181}
-  m_LocalScale: {x: 0.0018623187, y: 0.0019684029, z: 0.008952903}
+  m_LocalScale: {x: 0.00967965, y: 0.007778735, z: 0.008952903}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8072860553178878164}
@@ -1428,6 +1428,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1837855147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1837855148}
+  - component: {fileID: 1837855149}
+  m_Layer: 0
+  m_Name: Parkour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1837855148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837855147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.258884, y: 8.36747, z: -32.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1837855149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837855147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71628940a180cff4cb9dac42b93ca40f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "k\xFCpPrefab": {fileID: 7614602040972540815, guid: 97653d8ecff485d41a629f56c6ecace9,
+    type: 3}
+  platformPrefab: {fileID: 7614602040972540815, guid: 97653d8ecff485d41a629f56c6ecace9,
+    type: 3}
+  "k\xFCpSay\u0131s\u0131": 10
+  "aral\u0131kMesafesi": 2
+  "k\xFCpBoyutlar\u0131": {x: 1, y: 1, z: 1}
+  "y\xFCkseklikAral\u0131\u011F\u0131": 1.5
 --- !u!4 &20882684381030460
 Transform:
   m_ObjectHideFlags: 0
@@ -12577,6 +12629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 6707302127459857661}
   capsuleCollider: {fileID: 511897416}
+  enemySphere: {fileID: 511897415}
   health: 100
 --- !u!4 &8457331011951674262
 Transform:
