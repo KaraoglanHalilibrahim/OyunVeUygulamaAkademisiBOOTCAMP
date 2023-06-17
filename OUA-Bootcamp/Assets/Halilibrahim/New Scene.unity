@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9212.755, g: 6510.372, b: 6453.876, a: 1}
+  m_IndirectSpecularColor: {r: 9211.868, g: 6509.6377, b: 6453.407, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1444,7 +1444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObject: {fileID: 8469235753001344335}
-  deactivationTime: 3
+  deactivationTime: 0
 --- !u!4 &197949127327637622
 Transform:
   m_ObjectHideFlags: 0
@@ -13190,7 +13190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &7065890651186097095
 GameObject:
   m_ObjectHideFlags: 0
@@ -13892,10 +13892,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.7756271
-  m_Height: 3.5512543
+  m_Radius: 1.5040118
+  m_Height: 3.1497521
   m_Direction: 1
-  m_Center: {x: 0, y: 0.9973321, z: 0.048080444}
+  m_Center: {x: 0, y: 0.79658103, z: -0.0818063}
 --- !u!195 &7068504223023522583
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -17367,7 +17367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &8476198380929090763
 GameObject:
   m_ObjectHideFlags: 0
