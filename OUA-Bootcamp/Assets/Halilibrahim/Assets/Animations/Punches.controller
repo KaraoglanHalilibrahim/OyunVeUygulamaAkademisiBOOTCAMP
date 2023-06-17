@@ -285,7 +285,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: "\xD6l\xFCD\xFC\u015Fman"
+  - m_Name: DeadEnemy
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
