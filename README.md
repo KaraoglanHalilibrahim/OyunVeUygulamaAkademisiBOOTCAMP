@@ -61,11 +61,12 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
  **Puan Tamamlama Mantığı:** Oyun Geliştirme Süreci Boyunca Toplam Tamamlanması Gereken 360 Puanlık Backlog Bulunmaktadır. Dolayısıyla Her Sprint İçin Eşit Bacloglar Düzenleyerek, Sprint Başı 120 Puanlık Bacloglar Hazırladık.
  
  **Daiy Scrums:** Daily Scrum Toplantıalrını Her gün Whatsapp Ve Discord Üzerinden gerek toplantı, Gerekse de Yazılı Şeklinde Yaptık. Ekte Daily Scrum Toplantılarının Screenshotları Bulunmaktadır.                            
- [Sprint-1 Daily Scrums Chats]()
-  
+
+   [Sprint-1 Daily Scrums Chats][Sprint-1DailyScrums.docx](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/11777908/Sprint-1DailyScrums.docx)
+
  **Sprint-1 Board Update:** Sprint-1 İçin Board Screenshotları Ve Videolar:
  
- 
+
 
 https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/c52a5de6-58cb-4316-8e5d-3927f7090b68
 
