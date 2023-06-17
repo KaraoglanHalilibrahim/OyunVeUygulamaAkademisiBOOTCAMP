@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Halilibrahim/New Scene.unity
     guid: 18818650b86e56148844ce39abfb150c
+  - enabled: 1
+    path: Assets/Halilibrahim/BossStartScreen/BossResume/BossResume.unity
+    guid: 321897dfb188de54aa4efdb9dbc6cf1e
+  - enabled: 1
+    path: Assets/Halilibrahim/BossStartScreen/BossStart.unity
+    guid: ac3fa54d8fbbb0b4fb09bfd370205248
   m_configObjects: {}
