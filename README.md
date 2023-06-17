@@ -64,9 +64,15 @@ Oyunumuzu Steam ve Epic Games Üzerinden Satışa Sunmayı Planladığımızn İ
 
    [Sprint-1 Daily Scrums Chats][Sprint-1DailyScrums.docx](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/11777908/Sprint-1DailyScrums.docx)
 
- **Sprint-1 Board Update:** Sprint-1 İçin Board Screenshotları Ve Videolar:
+### Sprint-1 Board Update:
+**Sprint-1 İçin  Screenshotlar ve Videolar:**
  
+ 
+ ![Sprint-1_Backlog](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/10afe3e1-7441-44ca-9f7d-29f24b67881c)
 
+![Sprint-1_Reaming_Work](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/04775bd6-b049-4ab1-bad9-30dd888b8f6a)
+
+![Sprint-1_User_Stories](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/7c4f172b-7513-4829-9f9f-dc78721b88a9)
 
 https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/c52a5de6-58cb-4316-8e5d-3927f7090b68
 
