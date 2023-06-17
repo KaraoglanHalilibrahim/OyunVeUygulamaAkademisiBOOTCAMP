@@ -43,7 +43,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
 **Macera Severler:** Macera dolu oyunlarla ilgilenen oyuncular, 
 
-**Parkur Oyunu:** Kayıp Arkadaş'ın keyfini çıkaracak. Gizemli parkurları keşfetmek, zorlu engelleri aşmak ve heyecan verici hikaye ile etkileşime geçmek isteyen oyuncular bu oyunu sevecekler.
+**Parkur Oyununu Severler:** Gizemli parkurları keşfetmek, zorlu engelleri aşmak ve heyecan verici hikaye ile etkileşime geçmek isteyen oyuncular bu oyunu sevecekler.
 
 **Aksiyon Tutkunları:** Hızlı ve akıcı oynanış mekanikleri, düşmanlarla savaşma ve zorlu engelleri aşma gereklilikleriyle aksiyon severleri cezbedecek. Adrenalin dolu bir deneyim yaşamak isteyen oyuncular,
 
@@ -52,7 +52,8 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 **Görsel Deneyim Arayanlar:** Oyunun etkileyici parkur tasarımları ve görsel efektleri, görsel deneyim arayan oyuncuları tatmin edecektir. Farklı ortamlarda geçen parkurlar ve göz alıcı grafikler, oyunculara görsel olarak zengin bir oyun dünyası sunar. 
 
 ## `JURİYE NOT`
-
+Oyunumuzu Steam ve Epic Games Üzerinden Satışa Sunmayı Planladığımızn İçin, Değerlendirme Kriterleri Arasında Yer Alan **Oyunun ticarileştirme mekaniği doğru 
+uygulanmış (test reklamları kullanılabilir) Kriteri için Test Reklamları Kullanılmayacaktır.
 
 # SPRİNT-1
 
