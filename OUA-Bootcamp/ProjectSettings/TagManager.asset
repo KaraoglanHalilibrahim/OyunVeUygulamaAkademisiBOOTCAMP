@@ -11,11 +11,12 @@ TagManager:
   - ShotgunBullet
   - Punch
   - EnemySphere
+  - AttackCollider
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Video
   - Water
   - UI
   - 
