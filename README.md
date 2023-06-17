@@ -52,8 +52,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 **Görsel Deneyim Arayanlar:** Oyunun etkileyici parkur tasarımları ve görsel efektleri, görsel deneyim arayan oyuncuları tatmin edecektir. Farklı ortamlarda geçen parkurlar ve göz alıcı grafikler, oyunculara görsel olarak zengin bir oyun dünyası sunar. 
 
 ## `JURİYE NOT`
-Oyunumuzu Steam ve Epic Games Üzerinden Satışa Sunmayı Planladığımızn İçin, Değerlendirme Kriterleri Arasında Yer Alan **Oyunun ticarileştirme mekaniği doğru 
-uygulanmış (test reklamları kullanılabilir)** Kriteri için Test Reklamları Kullanılmayacaktır.
+Oyunumuzu Steam ve Epic Games Üzerinden Satışa Sunmayı Planladığımızn İçin, Değerlendirme Kriterleri Arasında Yer Alan                                                                                                   **Oyunun ticarileştirme mekaniği doğru  uygulanmış (test reklamları kullanılabilir)** Kriteri için Test Reklamları Kullanılmayacaktır.
 
 # SPRİNT-1
 
