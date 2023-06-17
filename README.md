@@ -13,7 +13,7 @@
 
 # ÜRÜN BİLGİLERİ
 - ## Oyunun İsmi
-Belirlenecek
+Rescue Run
 
 - ## Pruduct Baclog Url
 [First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
