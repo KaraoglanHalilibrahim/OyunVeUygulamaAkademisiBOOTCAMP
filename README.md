@@ -113,5 +113,8 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
   - Düşman can sistemi yapıldı.
   - Düşmanın ana karakterden hasar alması ve hit reaksiyonları vermesi sağlandı ve test edildi.
   - Düşmanın ölmesinin animasyonları ayarlandı ve test edildi.
+ 
+  ## Sprint Retrospective:
+   - Okul ve iş gibi nedenlerle sprint-1 de fazla aktiflik gösterilemediği için, sprint-2 de daha aktif olunması kararı alındı. Sprint-1 de 50 puanlık Backlog, Sprint-2 ye eklendiğinden, sprint-2 de yapılacak olan Backlog 170 puana yükselmiştir.
        
 
