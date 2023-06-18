@@ -97,3 +97,21 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 - https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/83c1a3a4-9757-4d6a-a85b-e519f183a944
 - https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/69647f57-ae88-4963-a13d-5f70c0eb738e
 
+  ## Sprint Review:
+ - **Parkur:**
+    - Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için kodlar yazıldı ve  test edildi.
+- **Ana Karakter:**
+  
+  - Ana akrakterin temel hareket mekanikleri tamamlandı (Koşma,Zıplama vs.).
+  - Ana karktere (E) tuşuna basınca ileri doğru atılmasını sağlayacak mekanik eklendi ve test edildi.
+  - Ana karakterin duvarda koşma mekaniği oluşturuldu.
+  - Ana karaktere yumruk atma mekaniği ve pompalı tüfek kullanma mekanikleri entegre edildi ve test edildi.
+   
+- **Düşman:**
+  - Düşman spawn sistemi oluşturuldu ve test edildi.
+  - Düşmanın hareketleri (Devriye, ana karakteri takip etmesi, saldırması) entegre edildi ve test edildi.
+  - Düşman can sistemi yapıldı.
+  - Düşmanın ana karakterden hasar alması ve hit reaksiyonları vermesi sağlandı ve test edildi.
+  - Düşmanın ölmesinin animasyonları ayarlandı ve test edildi.
+       
+
