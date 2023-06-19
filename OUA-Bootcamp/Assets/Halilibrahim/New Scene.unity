@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 8493.726, g: 5627.7153, b: 4698.9614, a: 1}
+  m_IndirectSpecularColor: {r: 9214.407, g: 6511.575, b: 6454.6885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4247,8 +4247,8 @@ MonoBehaviour:
   mermiPrefab: {fileID: 5681555702584737388, guid: e9af1e97c79b3c54ebe4af8b58c7123c,
     type: 3}
   nisangahNoktasi: {fileID: 2837153536035141408}
-  atisGucu: 100
-  atisHizi: 1
+  atisGucu: 1000
+  atisHizi: 5
 --- !u!114 &1495980046241996925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13668,7 +13668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &7065890651186097095
 GameObject:
   m_ObjectHideFlags: 0
@@ -17845,7 +17845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &8476198380929090763
 GameObject:
   m_ObjectHideFlags: 0
