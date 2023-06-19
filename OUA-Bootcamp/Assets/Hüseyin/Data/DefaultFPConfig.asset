@@ -34,16 +34,24 @@ MonoBehaviour:
   Camera_VerticalSensitivity: 20
   Camera_MinPitch: -75
   Camera_MaxPitch: 75
-  WalkSpeed: 9
-  RunSpeed: 8
+  WalkSpeed: 10
+  RunSpeed: 12
   CanRun: 1
   IsRunToggle: 0
   SlopeLimit: 60
-  Acceleration: 0.8
-  FallVelocity: 12
+  Acceleration: 2
+  FallVelocity: 14
   CanAirControl: 1
-  AirControlMaxSpeed: 7
+  AirControlMaxSpeed: 8
   CanJump: 1
   CanDoubleJump: 0
   JumpVelocity: 10
   JumpTime: 0.25
+  WallLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  wallRunForce: 0
+  maxWallRunTime: 0
+  wallRunTimer: 0
+  WallCheckDistance: 1
+  MinJumpHeight: 0
