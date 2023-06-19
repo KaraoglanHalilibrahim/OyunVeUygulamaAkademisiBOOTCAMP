@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Character Motor/Config", fileName = "CharacterMotorConfig")]
-public class CharacterMotorConfig : ScriptableObject
+[CreateAssetMenu(menuName = "Character Motor/Config",fileName = "CharacterMotorConfig")]
+public class CharacterMotorConfig02 : ScriptableObject
 {
     [Header("Headbob&Footstep")]
     public float Headbob_WalkBobAmount = 5f;
@@ -63,4 +63,6 @@ public class CharacterMotorConfig : ScriptableObject
     public float wallRunTimer;
     public float WallCheckDistance = 0.7f;
     public float MinJumpHeight;
+
+    
 }

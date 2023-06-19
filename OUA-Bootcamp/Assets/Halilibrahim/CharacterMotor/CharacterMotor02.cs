@@ -1,15 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Net.Mail;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class CharacterMotor : MonoBehaviour
+public class CharacterMotor02 : MonoBehaviour
 {
-
-
-
-
     [SerializeField] protected CharacterMotorConfig Config;
 
     protected Rigidbody LinkedRB;
@@ -115,7 +112,7 @@ public class CharacterMotor : MonoBehaviour
     protected void UpdateCamera()
     {
         float cameraYawDelta = _Input_Look.x * Config.Camera_HorizontalSensitivity * Time.deltaTime;
-        float cameraPitchDelta = _Input_Look.y * Config.Camera_VerticalSensitivity * Time.deltaTime * (Config.Camera_InvertY ? 1f : -1f);
+        float cameraPitchDelta = _Input_Look.y * Config.Camera_VerticalSensitivity * Time.deltaTime * (Config.Camera_InvertY ? 1f : -1f); 
 
         // rotate the character 
         transform.localRotation = transform.localRotation * Quaternion.Euler(0f, cameraYawDelta, 0f);
@@ -215,8 +212,8 @@ public class CharacterMotor : MonoBehaviour
                 {
                     movementVector.y = Config.JumpVelocity;
                 }
-
-
+          
+             
             }
         }
         else
@@ -305,4 +302,5 @@ public class CharacterMotor : MonoBehaviour
     {
         _Input_Jump = value.isPressed;
     }
+   
 }
