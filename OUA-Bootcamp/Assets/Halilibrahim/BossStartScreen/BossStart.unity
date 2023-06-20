@@ -25652,6 +25652,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Config: {fileID: 11400000, guid: 2b9f7fee52fbbff47b16c1aa0ba55aa1, type: 2}
   LinkedCamera: {fileID: 8183918890585924724}
+  wallLeft: 0
+  wallRight: 0
+  IsWallRunning: 0
 --- !u!1 &2543248792286230094
 GameObject:
   m_ObjectHideFlags: 0
