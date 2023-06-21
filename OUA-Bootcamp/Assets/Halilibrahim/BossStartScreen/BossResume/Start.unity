@@ -31362,6 +31362,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Levell (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5923881985747352127, guid: 23394db0864efde4f89e244a680e63d8,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6860435176779053330, guid: 23394db0864efde4f89e244a680e63d8,
         type: 3}
       propertyPath: m_LocalPosition.x
