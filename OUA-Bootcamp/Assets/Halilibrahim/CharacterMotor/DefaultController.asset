@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0854e2599632d44b9ed2a00536ae1f9, type: 3}
+  m_Name: DefaultController
+  m_EditorClassIdentifier: 
+  Headbob_WalkBobAmount: 5
+  Headbob_RunBobAmount: 5
+  Headbob_MinSpeedToBob: 0.1
+  Height: 1.8
+  Radius: 0.3
+  GroundedLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  GroundedCheckBuffer: 0.1
+  GroundedCheckRadiusBuffer: 0.05
+  CeilingCheckLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  CeilingCheckRangeBuffer: 0.1
+  CeilingCheckRadiusBuffer: 0.05
+  Material_Default: {fileID: 0}
+  Material_Jumping: {fileID: 0}
+  Camera_InvertY: 0
+  Camera_HorizontalSensitivity: 10
+  Camera_VerticalSensitivity: 10
+  Camera_MinPitch: -75
+  Camera_MaxPitch: 75
+  WalkSpeed: 10
+  RunSpeed: 15
+  CanRun: 1
+  IsRunToggle: 0
+  SlopeLimit: 60
+  Acceleration: 1
+  FallVelocity: 1
+  CanAirControl: 1
+  AirControlMaxSpeed: 2.5
+  CanJump: 1
+  CanDoubleJump: 1
+  JumpVelocity: 15
+  JumpTime: 0.1
