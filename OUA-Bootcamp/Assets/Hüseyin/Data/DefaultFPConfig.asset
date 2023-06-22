@@ -46,7 +46,7 @@ MonoBehaviour:
   CanJump: 1
   CanDoubleJump: 0
   JumpVelocity: 10
-  JumpTime: 0.25
+  JumpTime: 0.4
   WallLayer:
     serializedVersion: 2
     m_Bits: 64
