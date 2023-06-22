@@ -22463,8 +22463,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351900281396973697}
-  m_LocalRotation: {x: -0.07126309, y: -0.58662236, z: -0.080461994, w: -0.8026966}
-  m_LocalPosition: {x: 0, y: 0, z: -13.51}
+  m_LocalRotation: {x: -0.06597996, y: -0.7767959, z: -0.13468607, w: -0.6116326}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.020000009, y: 0.019999998, z: 0.020000005}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22476,10 +22476,10 @@ RectTransform:
   - {fileID: 4111487250958194167}
   m_Father: {fileID: 8658375655775302664}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 1.146, y: 72.443, z: 12.288}
+  m_LocalEulerAnglesHint: {x: -7.385, y: 102.552, z: 15.634}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 26.95, y: 12.21}
+  m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 1980, y: 1024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2112232454283446726
@@ -49121,6 +49121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d820d1967c6e30b44b805e30ae6ac79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ammo: 4
   ammoText: {fileID: 0}
   audioSource: {fileID: 8310733469114964136}
 --- !u!222 &5745357089183287728
@@ -97114,7 +97115,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645407424737102505}
   m_LocalRotation: {x: -0.023483362, y: 0.07675745, z: 0.0058611175, w: -0.99675596}
-  m_LocalPosition: {x: 0, y: 0, z: 7.1}
+  m_LocalPosition: {x: 0, y: 0, z: 6.52}
   m_LocalScale: {x: 0.0068614287, y: 0.006861427, z: 0.0068614287}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -97127,7 +97128,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 2.632, y: -8.827, z: -0.877}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.1, y: 2}
+  m_AnchoredPosition: {x: 0.76, y: 1.77}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &7641079726435660779
@@ -131483,7 +131484,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8797727833269519161, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
+    - {fileID: 2087416818168539529, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
+    - {fileID: 8013867397147269198, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
+    - {fileID: 2477506434551523070, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
+    - {fileID: 7446415029959646926, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
+    - {fileID: 392094290274651942, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
+    - {fileID: 3485643660129165460, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
+    - {fileID: 4979176885556930179, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23394db0864efde4f89e244a680e63d8, type: 3}
