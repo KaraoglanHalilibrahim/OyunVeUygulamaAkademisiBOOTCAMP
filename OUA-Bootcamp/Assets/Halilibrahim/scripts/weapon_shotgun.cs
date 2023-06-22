@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class weapon_shotgun : MonoBehaviour
 {
-    private int ammo = 4;
+    public int ammo = 4;
     private bool shoot;
     private bool canShoot = true;
     private bool reload = false;
