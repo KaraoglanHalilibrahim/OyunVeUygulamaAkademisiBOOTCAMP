@@ -135,7 +135,7 @@ MonoBehaviour:
     - sceneGUID: dfbb1d023a49e1248a1af04761ae6820
       profile: {fileID: 11400000, guid: c41252f27c94e304d85d05dfc1200cfa, type: 2}
     - sceneGUID: 18818650b86e56148844ce39abfb150c
-      profile: {fileID: 11400000, guid: c41252f27c94e304d85d05dfc1200cfa, type: 2}
+      profile: {fileID: 11400000, guid: a660b9774cc50f843a5a6ae9d42191cd, type: 2}
     - sceneGUID: 3386cdc6ad8aada4996c28a8544ae6dd
       profile: {fileID: 11400000, guid: c41252f27c94e304d85d05dfc1200cfa, type: 2}
     - sceneGUID: ac3fa54d8fbbb0b4fb09bfd370205248
@@ -151,7 +151,7 @@ MonoBehaviour:
     - sceneGUID: 8990ec9136ccee7498db0a72361ab472
       profile: {fileID: 11400000, guid: c41252f27c94e304d85d05dfc1200cfa, type: 2}
     - sceneGUID: d919794175051bc4386b8fc07898905b
-      profile: {fileID: 11400000, guid: c41252f27c94e304d85d05dfc1200cfa, type: 2}
+      profile: {fileID: 11400000, guid: a660b9774cc50f843a5a6ae9d42191cd, type: 2}
     - sceneGUID: 252cb733b1a639e448f5f659607a17dc
       profile: {fileID: 11400000, guid: c41252f27c94e304d85d05dfc1200cfa, type: 2}
     - sceneGUID: 5498c33960cb3c3419aa224279802a5c
@@ -433,7 +433,9 @@ MonoBehaviour:
             m_Bits: 4294967291
     serializedBakingSets:
     - name: New Baking Set
-      sceneGUIDs: []
+      sceneGUIDs:
+      - d919794175051bc4386b8fc07898905b
+      - 18818650b86e56148844ce39abfb150c
       settings:
         m_Version: 1
         dilationSettings:
