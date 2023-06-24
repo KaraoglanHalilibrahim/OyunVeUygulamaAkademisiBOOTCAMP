@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class enemy_death : MonoBehaviour
 {
+
     public Animator animator; // Animator bileþeni referansý
     public CapsuleCollider capsuleCollider; // CapsuleCollider bileþeni referansý
     public GameObject enemySphere; // EnemySphere objesinin referansý
@@ -11,10 +12,12 @@ public class enemy_death : MonoBehaviour
     private bool isFrozen = false; // Hareketin durma durumu
     private float freezeDuration = 0f; // Hareketin durma süresi
     private float freezeTimer = 0f; // Hareketin durma süresi için zamanlayýcý
+    public Animator DeadEnemy;
 
-
+   
     private void Update()
     {
+        
         if (isFrozen)
         {
             // Hareketi durdurma süresini kontrol et
@@ -30,8 +33,11 @@ public class enemy_death : MonoBehaviour
 
         if (isDead)
         {
+            
             // Ölüm sonrasý 3 saniye bekledikten sonra karakteri sahneden sil
             Invoke(nameof(DestroyCharacter), 3f);
+            /*int currentValue = DeadEnemy.GetInteger("DeadEnemy");
+            DeadEnemy.SetInteger("DeadEnemy", currentValue + 1);*/
         }
     }
 
@@ -45,6 +51,7 @@ public class enemy_death : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet")) // Çarpýþan obje "Bullet" tag'ine sahipse
         {
+            
             animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
 
             // Rastgele hit deðeri
@@ -58,8 +65,11 @@ public class enemy_death : MonoBehaviour
 
             if (health <= 0 && !isDead)
             {
+                int currentValue = DeadEnemy.GetInteger("DeadEnemy");
+                DeadEnemy.SetInteger("DeadEnemy", currentValue + 1);
                 health = 0;
                 isDead = true;
+                
                 // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
                 animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
 
@@ -85,10 +95,10 @@ public class enemy_death : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Punch"))
         {
-            
-                animator.SetBool("punching?", true); // Animator'deki "punching?" parametresini true yap
-                
-                if(animator.GetBool("punching?") == true)
+
+            animator.SetBool("punching?", true); // Animator'deki "punching?" parametresini true yap
+
+            if (animator.GetBool("punching?") == true)
             {
                 health -= 7; // punching? true olduðunda health deðerinden  azalt
                 animator.SetBool("punching?", false); // Animator'deki "punching?" parametresini false yap
@@ -99,6 +109,8 @@ public class enemy_death : MonoBehaviour
             {
                 health = 0;
                 isDead = true;
+                int currentValue = DeadEnemy.GetInteger("DeadEnemy");
+                DeadEnemy.SetInteger("DeadEnemy", currentValue + 1);
                 animator.SetBool("death", isDead); // Animator'deki "death" parametresine ölüm durumunu atar
                                                    // Ölüm durumuna geçiþ iþlemleri burada yapýlabilir
                 if (enemySphere != null)
