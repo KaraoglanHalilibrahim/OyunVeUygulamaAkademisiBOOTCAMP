@@ -602,7 +602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56913a0ad9273e340a5484a4970440db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GecisZamani: 7
+  GecisZamani: 8
   hedefSahneAdi: BossStart
 --- !u!4 &1085531269
 Transform:
