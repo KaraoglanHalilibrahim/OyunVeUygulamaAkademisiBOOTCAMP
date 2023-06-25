@@ -35,7 +35,7 @@ MonoBehaviour:
   Camera_MinPitch: -75
   Camera_MaxPitch: 75
   WalkSpeed: 15
-  RunSpeed: 20
+  RunSpeed: 17
   CanRun: 1
   IsRunToggle: 0
   SlopeLimit: 60
