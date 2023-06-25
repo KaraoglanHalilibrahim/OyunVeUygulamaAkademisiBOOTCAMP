@@ -530,7 +530,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967652001}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b39c572852e9b984f91454a0c62073c9, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a303ba2decd91ba4ab499461d644b905, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56913a0ad9273e340a5484a4970440db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GecisZamani: 7
+  GecisZamani: 8
   hedefSahneAdi: BossStart
 --- !u!4 &1085531269
 Transform:
