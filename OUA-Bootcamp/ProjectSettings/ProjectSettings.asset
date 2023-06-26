@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: First Attempt Studios
-  productName: First Attempt
+  productName: Rescue Run
   defaultCursor: {fileID: 2800000, guid: 7825633d016559249ade03ab1979c7b6, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 1, b: 1, a: 1}
