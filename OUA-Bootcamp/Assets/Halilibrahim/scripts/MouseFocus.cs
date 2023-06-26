@@ -11,7 +11,7 @@ public class MouseFocus : MonoBehaviour
 
     void Update()
     {
-        // Esc tuþuna basýldýðýnda fareyi serbest býrak
+        // ESC tuþuna basýldýðýnda fareyi serbest býrak
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.lockState = CursorLockMode.None;
