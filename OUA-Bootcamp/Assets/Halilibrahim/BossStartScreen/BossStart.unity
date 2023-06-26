@@ -238,6 +238,32 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114324633318724984, guid: 5ebad8a41bbacbe419403ab6a0c52078,
+        type: 3}
+      propertyPath: m_Text
+      value: '
+
+
+
+        Legends are real. My friend was abducted by the creature
+        from the legends. I must find him as soon as possible. I know. I Know They''re
+        In That Passage. i have to be fast'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114324633318724984, guid: 5ebad8a41bbacbe419403ab6a0c52078,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.14978641
+      objectReference: {fileID: 0}
+    - target: {fileID: 114324633318724984, guid: 5ebad8a41bbacbe419403ab6a0c52078,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.93265224
+      objectReference: {fileID: 0}
+    - target: {fileID: 114324633318724984, guid: 5ebad8a41bbacbe419403ab6a0c52078,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
     - target: {fileID: 114518684623157496, guid: 5ebad8a41bbacbe419403ab6a0c52078,
         type: 3}
       propertyPath: LoopTime
