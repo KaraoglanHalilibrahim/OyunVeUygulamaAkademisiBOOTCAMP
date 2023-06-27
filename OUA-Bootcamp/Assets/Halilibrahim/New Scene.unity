@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 8492.22, g: 5626.8286, b: 4698.274, a: 1}
+  m_IndirectSpecularColor: {r: 9212.755, g: 6510.372, b: 6453.8916, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7325,7 +7325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1685625654
 Transform:
   m_ObjectHideFlags: 0
@@ -34374,6 +34374,7 @@ GameObject:
   - component: {fileID: 6347315113580078103}
   - component: {fileID: 6347315113580078105}
   - component: {fileID: 6347315113580078104}
+  - component: {fileID: 6347315113580078106}
   m_Layer: 0
   m_Name: EnemyArcher
   m_TagString: Enemy
@@ -34473,8 +34474,21 @@ MonoBehaviour:
   animator: {fileID: 6347315113580078101}
   capsuleCollider: {fileID: 6347315113580078104}
   enemySphere: {fileID: 1685625653}
-  health: 100
+  health: 10
   DeadEnemy: {fileID: 570683881}
+--- !u!114 &6347315113580078106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6347315113580078100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f79e57ad264cb641b4fb52427cb5077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6347315113580078101}
 --- !u!1 &6349766701547492245
 GameObject:
   m_ObjectHideFlags: 0
