@@ -1,7 +1,9 @@
 # TAKIM BİLGİLERİ
 - ## Takım İsmi
 **First Attempt**
-
+- ## Takım Logosu
+- ![MergeLogo](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/fcd5b91f-3e78-4be2-84ee-2fe4917d8a9c)
+  
 - ## Takım Üyeleri
 |AD-SOYAD|TAKIMDAKİ ROLÜ|
 |--------|--------------|
