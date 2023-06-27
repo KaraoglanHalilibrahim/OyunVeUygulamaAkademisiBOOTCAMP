@@ -1,6 +1,9 @@
 # TAKIM BİLGİLERİ
 - ## Takım İsmi
 **First Attempt**
+- ## Takım Logosu
+![image-removebg-preview](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/3554b525-7a01-4a91-ade9-fe1e28064d35)
+
 
 - ## Takım Üyeleri
 |AD-SOYAD|TAKIMDAKİ ROLÜ|
@@ -116,5 +119,85 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
  
   ## Sprint Retrospective:
    - Okul ve iş gibi nedenlerle sprint-1 de fazla aktiflik gösterilemediği için, sprint-2 de daha aktif olunması kararı alındı. Sprint-1 de 50 puanlık Backlog, Sprint-2 ye eklendiğinden, sprint-2 de yapılacak olan Backlog 170 puana yükselmiştir.
-       
+
+
+
+# SPRİNT-2
+
+ - **Sprint İçinde Tamamlanması Tahmin Edilen Puan:**  120 Puan + sprint-1 den kalan 50 puanlık backlog.
+ - 
+ - **Daily Scrums:** Daily Scrum Toplantılarını Her gün Whatsapp Ve Discord Üzerinden gerek toplantı, Gerekse de Yazılı Şeklinde Yaptık. Ekte Daily Scrum Toplantılarının Screenshotları Bulunmaktadır.                            
+
+  - [Sprint-2 Daily Scrums Chats]()
+
+### Sprint-2 Board Update:
+## **Sprint-1 İçin  Screenshotlar ve Videolar:**
+
+- Sprint-2 NeonExample
+- ![NeonTrying](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/ee3217ac-1a6a-4501-ab99-3c6dbe9ec38d)
+- Sprint-2 CharacterMotorValues
+- ![Values](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/722b32db-dd27-4231-a7ff-6ec7d2cd327c)
+- Sprint-2 CharacterMotorValues02
+- ![CharacterValues02](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/b0303696-88b7-407b-8d04-25dcf5583c91)
+- Sprint-2 NeonExample02
+- ![NeOn](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/d76dc44c-96e2-44da-8b41-ecdb22987a46)
+- Sprint-2 Assets
+- ![asset](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/96a1b788-a9f3-44d4-bbb4-de2319272706)
+- Sprint-2 LogoSketch
+- ![LogoSketch](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/102d8a4e-4c56-4ecd-93e9-320809069da9)
+- Sprint-2 GameIcon
+- ![Game_icon](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/8811e95f-6362-40c1-8e34-47bf73005a4d)
+- Sprint-2 Code
+- ![Code01](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/78621929-adc8-4841-83e2-89a00150f7a8)
+
+
+- **Sprint-2:** Backlog:
+
+- Sprint-2 Reaming Work
+- Sprint-2 User Stories
+
+
+- **Sprint-2:** Yapım Aşamasındaki Videolar:
+ 
+
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/0b5dfa5f-ecdf-4824-886f-38d74db82f3a 
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/468ea271-4f12-4c12-b3fd-cddc6ea46d1b 
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/95090e4b-5401-456c-9259-3fb6ca56f6c5 
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/415104ed-9f83-428e-a425-ea489728ea04
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/4a8e64a9-ed50-45c8-8def-4abce8f8d083
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/5cf03ba9-b60f-4414-9945-7ef00422772d
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/fa1523f3-a6c2-43fa-92ee-1d4671c0608f
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/305d5270-fae5-4a79-93c6-af26ea542ef5
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/4e3ebbad-469f-4c0f-ab57-edb9e2c1f72d
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/51249989-cbc5-4088-960b-4a91802bfb1d
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/e4b77565-91d2-4b9c-bdcd-eec8f7e3073e
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/187a8bc9-ff58-443f-be48-9b2ab1b01a37
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/56d187ee-791d-4a0f-a28d-bcefa6f7f3f5
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/d0af5dcb-7978-41d8-bb95-f127647f8cc3
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/1248c63f-2fcc-4a99-b3ca-a2a24afadcdb
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/dac6ef85-e12c-4efd-ba86-e1b2ce151f02
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/c3f3578e-f751-41be-9be8-5b1790b33039
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/2daac0f1-7140-4dbb-b4bf-fda93bb9dcb6
+
+
+  ## Sprint Review:
+ - **Leveller:**
+    - Oyunun uzun 3 levelden olması kararlaştırıldı ve leveller tasarlandı.  
+ - **Parkur:**
+    - Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için yazılan kodlar oluşturulan levellere entegre edlildi.
+- **Ana Karakter:**
+  
+  - Ana akrakterin duvarda koşma mekaniğinin kodları yazıldı ve test edildi.
+  - Oyunun başındaki ve bazı durumlarda aktifleşmesi gereken sinematikler oluşturuldu ve test edilip tamamlandı.
+  - Ana karakterin hareketlerini inceleyip rapor halinde sunmak için, öldürülen düşman sayısı anlık olarak oyuncuya gösterilmesi için kodlar yazıldı, UI oluşturuldu, test edildi ve tamamlandı.
+   
+- **Düşman:**
+  - Düşman spawn sistemi oluşturuldu ve test edildi.
+  - Düşmanın hareketleri (Devriye, ana karakteri takip etmesi, saldırması) entegre edildi ve test edildi.
+  - Düşman can sistemi yapıldı.
+  - Düşmanın ana karakterden hasar alması ve hit reaksiyonları vermesi sağlandı ve test edildi.
+  - Düşmanın ölmesinin animasyonları ayarlandı ve test edildi.
+ 
+  ## Sprint Retrospective:
+   - Okul ve iş gibi nedenlerle sprint-1 de fazla aktiflik gösterilemediği için, sprint-2 de daha aktif olunması kararı alındı. Sprint-1 de 50 puanlık Backlog, Sprint-2 ye eklendiğinden, sprint-2 de yapılacak olan Backlog 170 puana yükselmiştir.
 

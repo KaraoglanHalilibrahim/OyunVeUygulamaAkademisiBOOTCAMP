@@ -1171,7 +1171,6 @@ GameObject:
   - component: {fileID: 6643390802473603258}
   - component: {fileID: 1503643968114485620}
   - component: {fileID: 6558617093092555621}
-  - component: {fileID: 8467165659819786936}
   - component: {fileID: 1063756864153520007}
   m_Layer: 7
   m_Name: MainCharacter
@@ -1387,27 +1386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushDistance: 3
---- !u!95 &8467165659819786936
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453966885773340234}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 64dad2ae4d4dfff4c94a6ed422f05d65, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1063756864153520007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1421,7 +1399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 0}
-  animator: {fileID: 8467165659819786936}
+  animator: {fileID: 0}
   parameterName: DeadEnemy
 --- !u!1 &1465844735847297745
 GameObject:
