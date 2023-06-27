@@ -148,8 +148,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 - ![Code01](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/78621929-adc8-4841-83e2-89a00150f7a8)
 
 
-- **Sprint-2:** Backlog:![asset](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/c9a58caa-ddbd-428c-a0a4-458ac0f9af02)
-
+- **Sprint-2:** Backlog:
 
 - Sprint-2 Reaming Work
 - Sprint-2 User Stories
