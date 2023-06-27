@@ -7,6 +7,7 @@ public class ArcherShoot : MonoBehaviour
     public Transform arrowSpawnPoint; // Okun çýkacaðý nokta
     public float initialDelay = 2f; // Ýlk atýþ için geçmesi gereken süre (saniye)
     public float shootInterval = 1.5f; // Ardýþýk atýþlar arasýndaki zaman farký (saniye)
+    public float force = 1000f; // Okun hýz ve gücü
 
     private bool canShoot = true;
     public Animator animator;
@@ -45,7 +46,7 @@ public class ArcherShoot : MonoBehaviour
         Rigidbody arrowRigidbody = arrow.GetComponent<Rigidbody>();
         if (arrowRigidbody != null)
         {
-            arrowRigidbody.AddForce(arrowSpawnPoint.forward * 1000f);
+            arrowRigidbody.AddForce(arrowSpawnPoint.forward * force);
         }
     }
 }

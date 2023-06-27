@@ -11,8 +11,8 @@ public class ArcherFocus : MonoBehaviour
         {
             // Karakterin hedef objeye doðru dönmesini saðla
             Vector3 direction = target.position - transform.position;
-            direction.y = 0f; // Y ekseni (yukarý-aþaðý) sýfýrlanýr
             Quaternion rotation = Quaternion.LookRotation(direction);
+            rotation.eulerAngles = new Vector3(rotation.eulerAngles.x, rotation.eulerAngles.y, 0f); // Z ekseni (ileri-geri) sýfýrlanýr
             transform.rotation = Quaternion.Lerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
         }
     }
