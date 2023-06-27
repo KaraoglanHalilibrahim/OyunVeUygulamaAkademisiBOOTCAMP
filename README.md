@@ -129,9 +129,27 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
 ### Sprint-2 Board Update:
 ## **Sprint-1 İçin  Screenshotlar ve Videolar:**
- 
- 
-- **Sprint-2:** Backlog:
+
+- Sprint-2 NeonExample
+- ![NeonTrying](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/ee3217ac-1a6a-4501-ab99-3c6dbe9ec38d)
+- Sprint-2 CharacterMotorValues
+- ![Values](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/722b32db-dd27-4231-a7ff-6ec7d2cd327c)
+- Sprint-2 CharacterMotorValues02
+- ![CharacterValues02](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/b0303696-88b7-407b-8d04-25dcf5583c91)
+- Sprint-2 NeonExample02
+- ![NeOn](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/d76dc44c-96e2-44da-8b41-ecdb22987a46)
+- Sprint-2 Assets
+- ![asset](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/96a1b788-a9f3-44d4-bbb4-de2319272706)
+- Sprint-2 LogoSketch
+- ![LogoSketch](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/102d8a4e-4c56-4ecd-93e9-320809069da9)
+- Sprint-2 GameIcon
+- ![Game_icon](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/8811e95f-6362-40c1-8e34-47bf73005a4d)
+- Sprint-2 Code
+- ![Code01](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/78621929-adc8-4841-83e2-89a00150f7a8)
+
+
+- **Sprint-2:** Backlog:![asset](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/c9a58caa-ddbd-428c-a0a4-458ac0f9af02)
+
 
 - Sprint-2 Reaming Work
 - Sprint-2 User Stories
