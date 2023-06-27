@@ -158,6 +158,27 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
 
 - **Sprint-2:** Yapım Aşamasındaki Videolar:
+ 
+
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/0b5dfa5f-ecdf-4824-886f-38d74db82f3a 
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/468ea271-4f12-4c12-b3fd-cddc6ea46d1b 
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/95090e4b-5401-456c-9259-3fb6ca56f6c5 
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/415104ed-9f83-428e-a425-ea489728ea04
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/4a8e64a9-ed50-45c8-8def-4abce8f8d083
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/5cf03ba9-b60f-4414-9945-7ef00422772d
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/fa1523f3-a6c2-43fa-92ee-1d4671c0608f
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/305d5270-fae5-4a79-93c6-af26ea542ef5
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/4e3ebbad-469f-4c0f-ab57-edb9e2c1f72d
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/51249989-cbc5-4088-960b-4a91802bfb1d
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/e4b77565-91d2-4b9c-bdcd-eec8f7e3073e
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/187a8bc9-ff58-443f-be48-9b2ab1b01a37
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/56d187ee-791d-4a0f-a28d-bcefa6f7f3f5
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/d0af5dcb-7978-41d8-bb95-f127647f8cc3
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/1248c63f-2fcc-4a99-b3ca-a2a24afadcdb
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/dac6ef85-e12c-4efd-ba86-e1b2ce151f02
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/c3f3578e-f751-41be-9be8-5b1790b33039
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/2daac0f1-7140-4dbb-b4bf-fda93bb9dcb6
+
 
   ## Sprint Review:
  - **Leveller:**
