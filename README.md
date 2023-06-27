@@ -116,5 +116,47 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
  
   ## Sprint Retrospective:
    - Okul ve iş gibi nedenlerle sprint-1 de fazla aktiflik gösterilemediği için, sprint-2 de daha aktif olunması kararı alındı. Sprint-1 de 50 puanlık Backlog, Sprint-2 ye eklendiğinden, sprint-2 de yapılacak olan Backlog 170 puana yükselmiştir.
-       
+
+
+
+# SPRİNT-2
+
+ - **Sprint İçinde Tamamlanması Tahmin Edilen Puan:**  120 Puan + sprint-1 den kalan 50 puanlık backlog.
+ - 
+ - **Daily Scrums:** Daily Scrum Toplantılarını Her gün Whatsapp Ve Discord Üzerinden gerek toplantı, Gerekse de Yazılı Şeklinde Yaptık. Ekte Daily Scrum Toplantılarının Screenshotları Bulunmaktadır.                            
+
+  - [Sprint-2 Daily Scrums Chats]()
+
+### Sprint-2 Board Update:
+## **Sprint-1 İçin  Screenshotlar ve Videolar:**
+ 
+ 
+- **Sprint-2:** Backlog:
+
+- Sprint-2 Reaming Work
+- Sprint-2 User Stories
+
+
+- **Sprint-2:** Yapım Aşamasındaki Videolar:
+
+  ## Sprint Review:
+ - **Leveller:**
+    - Oyunun uzun 3 levelden olması kararlaştırıldı ve leveller tasarlandı.  
+ - **Parkur:**
+    - Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için yazılan kodlar oluşturulan levellere entegre edlildi.
+- **Ana Karakter:**
+  
+  - Ana akrakterin duvarda koşma mekaniğinin kodları yazıldı ve test edildi.
+  - Oyunun başındaki ve bazı durumlarda aktifleşmesi gereken sinematikler oluşturuldu ve test edilip tamamlandı.
+  - Ana karakterin hareketlerini inceleyip rapor halinde sunmak için, öldürülen düşman sayısı anlık olarak oyuncuya gösterilmesi için kodlar yazıldı, UI oluşturuldu, test edildi ve tamamlandı.
+   
+- **Düşman:**
+  - Düşman spawn sistemi oluşturuldu ve test edildi.
+  - Düşmanın hareketleri (Devriye, ana karakteri takip etmesi, saldırması) entegre edildi ve test edildi.
+  - Düşman can sistemi yapıldı.
+  - Düşmanın ana karakterden hasar alması ve hit reaksiyonları vermesi sağlandı ve test edildi.
+  - Düşmanın ölmesinin animasyonları ayarlandı ve test edildi.
+ 
+  ## Sprint Retrospective:
+   - Okul ve iş gibi nedenlerle sprint-1 de fazla aktiflik gösterilemediği için, sprint-2 de daha aktif olunması kararı alındı. Sprint-1 de 50 puanlık Backlog, Sprint-2 ye eklendiğinden, sprint-2 de yapılacak olan Backlog 170 puana yükselmiştir.
 
