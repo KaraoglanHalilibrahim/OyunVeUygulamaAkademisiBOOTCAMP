@@ -20,7 +20,11 @@ public class ArcherShoot : MonoBehaviour
 
     private IEnumerator ShootRoutine()
     {
-        yield return new WaitForSeconds(initialDelay);
+        if (canShoot && animator.GetBool("attack"))
+        {
+            yield return new WaitForSeconds(initialDelay);
+
+        }
 
         while (true)
         {
