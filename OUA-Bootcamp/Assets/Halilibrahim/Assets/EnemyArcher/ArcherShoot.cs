@@ -20,11 +20,9 @@ public class ArcherShoot : MonoBehaviour
 
     private IEnumerator ShootRoutine()
     {
-        if (canShoot && animator.GetBool("attack"))
-        {
+        
             yield return new WaitForSeconds(initialDelay);
 
-        }
 
         while (true)
         {
@@ -41,16 +39,20 @@ public class ArcherShoot : MonoBehaviour
 
     private void Shoot()
     {
-        // Ok objesini oluþtur
-        GameObject arrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, arrowSpawnPoint.rotation);
+        
+        
+             // Ok objesini oluþtur
+              GameObject arrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, arrowSpawnPoint.rotation);
 
-        // Oku hareket ettirme veya diðer ayarlarý yapma kodlarý eklenebilir
+             // Oku hareket ettirme veya diðer ayarlarý yapma kodlarý eklenebilir
 
-        // Örneðin, Rigidbody bileþeni varsa hareket ettirelim
-        Rigidbody arrowRigidbody = arrow.GetComponent<Rigidbody>();
-        if (arrowRigidbody != null)
-        {
-            arrowRigidbody.AddForce(arrowSpawnPoint.forward * force);
-        }
+             // Örneðin, Rigidbody bileþeni varsa hareket ettirelim
+             Rigidbody arrowRigidbody = arrow.GetComponent<Rigidbody>();
+             if (arrowRigidbody != null)
+             {
+                 arrowRigidbody.AddForce(arrowSpawnPoint.forward * force);
+             }
+        
+            
     }
 }
