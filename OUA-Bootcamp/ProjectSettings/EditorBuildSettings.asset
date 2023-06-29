@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Halilibrahim/LoadingScreenLevel_Level_1.unity
     guid: e2b8212938128144dba66c3b2027cb00
+  - enabled: 1
+    path: Assets/Halilibrahim/Levels/Level_01/Level01.unity
+    guid: 669df6d02f51ddd4d9ee845ede9b8cdd
   m_configObjects: {}
