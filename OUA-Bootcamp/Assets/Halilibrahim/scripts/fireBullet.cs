@@ -8,7 +8,7 @@ public class fireBullet : MonoBehaviour
     public float atisGucu = 1000f;
     public float atisHizi = 100f;
 
-    private int ammo = 4;
+    private int ammo = 0;
     private bool atisYapilabilir = true;
     private bool reload = false; // reload boolean'ý eklendi
     private float zamanSuresi = 1f;
