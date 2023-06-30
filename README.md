@@ -2,7 +2,9 @@
 - ## Takım İsmi
 **First Attempt**
 - ## Takım Logosu
-![image-removebg-preview](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/3554b525-7a01-4a91-ade9-fe1e28064d35)
+![s](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/49c6e1cc-9e04-4942-b2d5-89e3378a1761)
+
+
 
 
 - ## Takım Üyeleri
