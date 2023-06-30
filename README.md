@@ -195,7 +195,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
     - Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için yazılan kodlar oluşturulan levellere entegre edlildi.
 - **Ana Karakter:**
   
-  - Ana akrakterin duvarda koşma mekaniğinin kodları yazıldı ve test edildi.
+  - Ana karakterin duvarda koşma mekaniğinin kodları yazıldı ve test edildi.
   - Oyunun başındaki ve bazı durumlarda aktifleşmesi gereken sinematikler oluşturuldu ve test edilip tamamlandı.
   - Ana karakterin hareketlerini inceleyip rapor halinde sunmak için, öldürülen düşman sayısı anlık olarak oyuncuya gösterilmesi için kodlar yazıldı, UI oluşturuldu, test edildi ve tamamlandı.
    
