@@ -128,9 +128,19 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
  - 
  - **Daily Scrums:** Daily Scrum Toplantılarını Her gün Whatsapp Ve Discord Üzerinden gerek toplantı, Gerekse de Yazılı Şeklinde Yaptık. Ekte Daily Scrum Toplantılarının Screenshotları Bulunmaktadır.                            
 
-  - [Sprint-2 Daily Scrums Chats]()
+  - [Sprint-2 Daily Scrums Chats](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/11915316/Sprint-2DailyScrums.docx)
+
 
 ### Sprint-2 Board Update:
+- **Sprint-2:** Backlog:
+- ![Backlogs](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/57f63dbe-9118-47bf-b82b-3b9f1574c469)
+
+- Sprint-2 Reaming Work
+- ![reamingWorks](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/f536a73d-c958-4966-8c71-a9b75c6cf9ab)
+
+- Sprint-2 User Stories
+- ![userStories](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/3e01c5e0-686d-4f18-bd44-5263582ac61c)
+
 ## **Sprint-1 İçin  Screenshotlar ve Videolar:**
 
 - Sprint-2 NeonExample
@@ -151,10 +161,6 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 - ![Code01](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/78621929-adc8-4841-83e2-89a00150f7a8)
 
 
-- **Sprint-2:** Backlog:
-
-- Sprint-2 Reaming Work
-- Sprint-2 User Stories
 
 
 - **Sprint-2:** Yapım Aşamasındaki Videolar:
@@ -192,12 +198,9 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
   - Ana karakterin hareketlerini inceleyip rapor halinde sunmak için, öldürülen düşman sayısı anlık olarak oyuncuya gösterilmesi için kodlar yazıldı, UI oluşturuldu, test edildi ve tamamlandı.
    
 - **Düşman:**
-  - Düşman spawn sistemi oluşturuldu ve test edildi.
-  - Düşmanın hareketleri (Devriye, ana karakteri takip etmesi, saldırması) entegre edildi ve test edildi.
-  - Düşman can sistemi yapıldı.
-  - Düşmanın ana karakterden hasar alması ve hit reaksiyonları vermesi sağlandı ve test edildi.
-  - Düşmanın ölmesinin animasyonları ayarlandı ve test edildi.
+  - Yeni düşman eklendi (Archer).
+  - Düşmanın animasyonları entegre edildi (Ok atma, ölme, idle vs.).
  
   ## Sprint Retrospective:
-   - Okul ve iş gibi nedenlerle sprint-1 de fazla aktiflik gösterilemediği için, sprint-2 de daha aktif olunması kararı alındı. Sprint-1 de 50 puanlık Backlog, Sprint-2 ye eklendiğinden, sprint-2 de yapılacak olan Backlog 170 puana yükselmiştir.
+   - Sprint-3 te daha aktif olunması kararı alındı. Sprint-2 de 30 puanlık Backlog, Sprint-3 e eklendiğinden, sprint-3 te yapılacak olan Backlog 150 puana yükselmiştir.
 
