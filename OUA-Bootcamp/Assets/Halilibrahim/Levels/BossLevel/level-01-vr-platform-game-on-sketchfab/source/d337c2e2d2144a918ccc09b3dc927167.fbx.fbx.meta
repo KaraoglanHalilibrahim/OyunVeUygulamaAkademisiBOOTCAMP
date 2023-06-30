@@ -3,7 +3,22 @@ guid: df981c762c5a2a34ca4e192adc13f412
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Level
+    second: {fileID: 2100000, guid: 61f87df7627a64d41b6cb7b72c8e6bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sketchfab
+    second: {fileID: 2100000, guid: 7f18cc7a4c2c32c46a1ff6c632cc514e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 8431295a04140924cb2e61c193081d8a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
