@@ -1,0 +1,14 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 20-01-26, 08:44
+
+newmtl standard
+Ns 114.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.5215 0.5215 0.5215 
+Ke 0.0 0.0 0.0 
+

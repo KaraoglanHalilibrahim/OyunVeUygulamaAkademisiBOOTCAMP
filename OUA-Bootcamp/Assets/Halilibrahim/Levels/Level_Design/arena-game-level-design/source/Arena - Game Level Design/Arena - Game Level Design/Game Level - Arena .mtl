@@ -1,0 +1,84 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 21-03-06, 20:21
+
+newmtl Surface
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.4705 0.43919998 0.4039 
+Kd 0.4705 0.43919998 0.4039 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Wooden bridge
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.3294 0.22739999 0.1882 
+Kd 0.3294 0.22739999 0.1882 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Planks wood
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.4039 0.2784 0.2313 
+Kd 0.4039 0.2784 0.2313 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Fence
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.3568 0.3333 0.3058 
+Kd 0.3568 0.3333 0.3058 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Main panel
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.36069998 0.34109998 0.3372 
+Kd 0.36069998 0.34109998 0.3372 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Stairs
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.4705 0.43919998 0.4039 
+Kd 0.4705 0.43919998 0.4039 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Diamond Sign
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0313 0.9176 1.0 
+Kd 0.0313 0.9176 1.0 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Carpet
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.5647 0.0 0.0 
+Kd 0.5647 0.0 0.0 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+

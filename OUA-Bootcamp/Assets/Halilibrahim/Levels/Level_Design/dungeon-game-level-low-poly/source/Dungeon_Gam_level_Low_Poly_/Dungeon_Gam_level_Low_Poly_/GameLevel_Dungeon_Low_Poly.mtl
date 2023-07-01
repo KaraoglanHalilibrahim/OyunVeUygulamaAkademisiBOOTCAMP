@@ -1,0 +1,104 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 20-04-03, 08:03
+
+newmtl mainwallfloor
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6509 0.43129998 0.3372 
+Kd 0.6509 0.43129998 0.3372 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl leveldoor
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 0.49409997 0.0 
+Kd 1.0 0.49409997 0.0 
+Ks 0.0 0.0 0.0 
+Ke 1.0 0.49409997 0.0 
+
+newmtl Maindoor
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.2862 0.4745 1.0 
+Kd 0.2862 0.4745 1.0 
+Ks 0.0 0.0 0.0 
+Ke 0.2862 0.4745 1.0 
+
+newmtl stairs_support
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6509 0.43129998 0.3372 
+Kd 0.6509 0.43129998 0.3372 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl pathandstairs
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6509 0.43129998 0.3372 
+Kd 0.6509 0.43129998 0.3372 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl brick 
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.5215 0.345 0.2705 
+Kd 0.5215 0.345 0.2705 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Barrel
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.5176 0.3254 0.2039 
+Kd 0.5176 0.3254 0.2039 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl wood
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.49409997 0.26659998 0.1529 
+Kd 0.49409997 0.26659998 0.1529 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl sword
+Ns 125.700005
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.4039 0.39999998 0.4274 
+Kd 0.4039 0.39999998 0.4274 
+Ks 0.6509 0.6509 0.6509 
+Ke 0.0 0.0 0.0 
+
+newmtl stones
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.447 0.2941 0.2313 
+Kd 0.447 0.2941 0.2313 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+

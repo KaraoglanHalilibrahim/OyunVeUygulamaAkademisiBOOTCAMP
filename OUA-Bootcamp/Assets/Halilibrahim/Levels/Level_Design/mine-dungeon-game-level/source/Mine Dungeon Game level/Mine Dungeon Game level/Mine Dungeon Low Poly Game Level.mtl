@@ -1,0 +1,44 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 21-05-11, 07:56
+
+newmtl Surface mat
+Ns 128.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.2862 0.3137 0.3647 
+Kd 0.2862 0.3137 0.3647 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Wood
+Ns 128.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.49409997 0.345 0.2588 
+Kd 0.49409997 0.345 0.2588 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Circles
+Ns 128.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.3294 0.36069998 0.41959998 
+Kd 0.3294 0.36069998 0.41959998 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl Crystal glow
+Ns 128.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.3725 1.0 0.98819995 
+Kd 0.3725 1.0 0.98819995 
+Ks 0.0 0.0 0.0 
+Ke 0.3294 0.36069998 0.41959998 
+
