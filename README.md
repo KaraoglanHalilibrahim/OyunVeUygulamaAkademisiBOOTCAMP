@@ -21,7 +21,7 @@
 Rescue Run
 
 - ## Pruduct Baclog Url
-[First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
+ - [First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
 
  ## Oyunun Açıklaması
 - Oyunumuzda ana karakter, yakın arkadaşıyla birlikte sakin bir dağ evinde çay içerken başlayan bir maceraya atılıyor.
@@ -135,7 +135,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
 ### Sprint-2 Board Update:
 - ## Pruduct Baclog Url
--[First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
+ - [First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
 - **Sprint-2:** Backlog:
 - ![Backlogs](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/57f63dbe-9118-47bf-b82b-3b9f1574c469)
 
