@@ -127,7 +127,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 # SPRİNT-2
 
  - **Sprint İçinde Tamamlanması Tahmin Edilen Puan:**  120 Puan + sprint-1 den kalan 50 puanlık backlog.
- - 
+ 
  - **Daily Scrums:** Daily Scrum Toplantılarını Her gün Whatsapp Ve Discord Üzerinden gerek toplantı, Gerekse de Yazılı Şeklinde Yaptık. Ekte Daily Scrum Toplantılarının Screenshotları Bulunmaktadır.                            
 
   - [Sprint-2 Daily Scrums Chats](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/11915316/Sprint-2DailyScrums.docx)
