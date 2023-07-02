@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Halilibrahim/Levels/Level_01/Level01.unity
     guid: 669df6d02f51ddd4d9ee845ede9b8cdd
+  - enabled: 1
+    path: Assets/Halilibrahim/Levels/Level_Design/LevelDesign.unity
+    guid: 2b86a68524875044daf687c8584c1520
   m_configObjects: {}
