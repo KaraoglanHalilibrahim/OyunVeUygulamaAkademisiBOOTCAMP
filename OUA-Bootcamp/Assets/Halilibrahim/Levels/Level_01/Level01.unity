@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 9065.938, g: 11045.368, b: 13910.08, a: 1}
+  m_IndirectSpecularColor: {r: 4315.7935, g: 1165.2443, b: 764.85944, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3019,7 +3019,7 @@ GameObject:
   - component: {fileID: 628755674}
   - component: {fileID: 628755673}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: SKY_SKY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
