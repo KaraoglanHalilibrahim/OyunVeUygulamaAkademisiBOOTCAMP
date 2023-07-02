@@ -24,12 +24,12 @@ EditorBuildSettings:
     path: Assets/Halilibrahim/BossStartScreen/BossResume/Start.unity
     guid: d919794175051bc4386b8fc07898905b
   - enabled: 1
+    path: Assets/Halilibrahim/Levels/Level_Design/LevelDesign.unity
+    guid: 2b86a68524875044daf687c8584c1520
+  - enabled: 1
     path: Assets/Halilibrahim/LoadingScreenLevel_Level_1.unity
     guid: e2b8212938128144dba66c3b2027cb00
   - enabled: 1
     path: Assets/Halilibrahim/Levels/Level_01/Level01.unity
     guid: 669df6d02f51ddd4d9ee845ede9b8cdd
-  - enabled: 1
-    path: Assets/Halilibrahim/Levels/Level_Design/LevelDesign.unity
-    guid: 2b86a68524875044daf687c8584c1520
   m_configObjects: {}
