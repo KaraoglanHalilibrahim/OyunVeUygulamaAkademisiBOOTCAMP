@@ -195,6 +195,8 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
     - Oyunun uzun 3 levelden olması kararlaştırıldı ve leveller tasarlandı.  
  - **Parkur:**
     - Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için yazılan kodlar oluşturulan levellere entegre edlildi.
+ - **Sinematikler:**
+     - Sinematikler eklendi ve test edildi. 
 - **Ana Karakter:**
   
   - Ana karakterin duvarda koşma mekaniğinin kodları yazıldı ve test edildi.
