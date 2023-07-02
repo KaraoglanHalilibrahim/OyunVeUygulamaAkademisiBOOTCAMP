@@ -28,6 +28,7 @@ Material:
   m_Parent: {fileID: 2100000, guid: 8c47d5b09aaffa54fb40ffa52db715bb, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _DISABLE_SSR_TRANSPARENT
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
@@ -36,7 +37,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -46,21 +48,8 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 69f91e6df8ab1284e915b68fbcbd4530, type: 3}
-        m_Scale: {x: 2.05, y: 1.55}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 69f91e6df8ab1284e915b68fbcbd4530, type: 3}
-        m_Scale: {x: 2.05, y: 1.55}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: e4da198e37e0ac443bc5cb54eeb63da3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _InvTilingScale: 0.5555556
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []

@@ -9,9 +9,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: ground2
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-  m_Parent: {fileID: 2100000, guid: 57e19dfe68dd8dc40bcd9fd109e365c7, type: 2}
+  m_Parent: {fileID: 2100000, guid: 09d2711cb134c78409078c4645fae1cd, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _DISABLE_SSR_TRANSPARENT
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
@@ -20,7 +21,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -30,24 +32,9 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 13dbd3705d3c8114e850fdb5c9e15c14, type: 3}
-        m_Scale: {x: 3.36, y: 2.35}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 13dbd3705d3c8114e850fdb5c9e15c14, type: 3}
-        m_Scale: {x: 3.36, y: 2.35}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 5e621d0afd513be459d996092cd86267, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _InvTilingScale: 0.3502627
-    - _LinkDetailsWithBase: 1
-    - _SmoothnessRemapMax: 1
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &3649601081616391094
