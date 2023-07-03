@@ -208,5 +208,5 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
   - Düşmanın animasyonları entegre edildi (Ok atma, ölme, idle vs.).
  
   ## Sprint Retrospective:
-   - Sprint-3 te daha aktif olunması kararı alındı. Sprint-2 de 60 puanlık Backlog, Sprint-3 e eklendiğinden, sprint-3 te yapılacak olan Backlog 180 puana yükselmiştir.
+   - Sprint-3 te daha aktif olunması kararı alındı. Sprint-2 de 50 puanlık Backlog, Sprint-3 e eklendiğinden, sprint-3 te yapılacak olan Backlog 180 puana yükselmiştir.
 
