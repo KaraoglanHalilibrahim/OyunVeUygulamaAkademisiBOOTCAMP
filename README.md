@@ -61,6 +61,22 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
 # SPRİNT-1
 
+## SPRİNT-1 NOTLARI:
+- Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için kodlar yazıldı ve  test edildi.
+- **Ana Karakter:**
+  
+  - Ana akrakterin temel hareket mekanikleri tamamlandı (Koşma,Zıplama vs.).
+  - Ana karktere (E) tuşuna basınca ileri doğru atılmasını sağlayacak mekanik eklendi ve test edildi.
+  - Ana karakterin duvarda koşma mekaniği oluşturuldu.
+  - Ana karaktere yumruk atma mekaniği ve pompalı tüfek kullanma mekanikleri entegre edildi ve test edildi.
+   
+- **Düşman:**
+  - Düşman spawn sistemi oluşturuldu ve test edildi.
+  - Düşmanın hareketleri (Devriye, ana karakteri takip etmesi, saldırması) entegre edildi ve test edildi.
+  - Düşman can sistemi yapıldı.
+  - Düşmanın ana karakterden hasar alması ve hit reaksiyonları vermesi sağlandı ve test edildi.
+  - Düşmanın ölmesinin animasyonları ayarlandı ve test edildi.
+
  - **Sprint İçinde Tamamlanması Tahmin Edilen Puan:**  120 Puan 
 
  - **Puan Tamamlama Mantığı:** Oyun Geliştirme Süreci Boyunca Toplam Tamamlanması Gereken 360 Puanlık Backlog Bulunmaktadır. Dolayısıyla Her Sprint İçin Eşit Backloglar Düzenleyerek, Sprint Başı 120 Puanlık Backloglar Hazırladık.
@@ -131,6 +147,21 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
  - **Daily Scrums:** Daily Scrum Toplantılarını Her gün Whatsapp Ve Discord Üzerinden gerek toplantı, Gerekse de Yazılı Şeklinde Yaptık. Ekte Daily Scrum Toplantılarının Screenshotları Bulunmaktadır.                            
 
   - [Sprint-2 Daily Scrums Chats](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/11915316/Sprint-2DailyScrums.docx)
+
+## SPRİNT-2 NOTLARI:
+- **Parkur:**
+    - Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için yazılan kodlar oluşturulan levellere entegre edlildi.
+ - **Sinematikler:**
+     - Sinematikler eklendi ve test edildi. 
+- **Ana Karakter:**
+  
+  - Ana karakterin duvarda koşma mekaniğinin kodları yazıldı ve test edildi.
+  - Oyunun başındaki ve bazı durumlarda aktifleşmesi gereken sinematikler oluşturuldu ve test edilip tamamlandı.
+  - Ana karakterin hareketlerini inceleyip rapor halinde sunmak ve öldürülen düşman sayısının anlık olarak oyuncuya gösterilmesi için kodlar yazıldı, UI oluşturuldu, test edildi ve tamamlandı.
+   
+- **Düşman:**
+  - Yeni düşman eklendi (Archer).
+  - Düşmanın animasyonları entegre edildi (Ok atma, ölme, idle vs.).
 
 
 ### Sprint-2 Board Update:
@@ -205,7 +236,19 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
    
 - **Düşman:**
   - Yeni düşman eklendi (Archer).
-  - Düşmanın animasyonları entegre edildi (Ok atma, ölme, idle vs.).
+  - Düşmanın animasyonları entegre edildi (Ok atma, ölme, idle - **Parkur:**
+    - Parkurun, belirli koşullarda parçalanmış halden tüm hale gelmesi için yazılan kodlar oluşturulan levellere entegre edlildi.
+ - **Sinematikler:**
+     - Sinematikler eklendi ve test edildi. 
+- **Ana Karakter:**
+  
+  - Ana karakterin duvarda koşma mekaniğinin kodları yazıldı ve test edildi.
+  - Oyunun başındaki ve bazı durumlarda aktifleşmesi gereken sinematikler oluşturuldu ve test edilip tamamlandı.
+  - Ana karakterin hareketlerini inceleyip rapor halinde sunmak ve öldürülen düşman sayısının anlık olarak oyuncuya gösterilmesi için kodlar yazıldı, UI oluşturuldu, test edildi ve tamamlandı.
+   
+- **Düşman:**
+  - Yeni düşman eklendi (Archer).
+  - Düşmanın animasyonları entegre edildi (Ok atma, ölme, idle vs.)
  
   ## Sprint Retrospective:
    - Sprint-3 te daha aktif olunması kararı alındı. Sprint-2 de 50 puanlık Backlog, Sprint-3 e eklendiğinden, sprint-3 te yapılacak olan Backlog 170 puana yükselmiştir.
