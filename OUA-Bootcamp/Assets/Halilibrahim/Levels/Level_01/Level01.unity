@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 5960.104, g: 8960.601, b: 13049.576, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7779,7 +7779,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.70692414, g: 0.8867924, b: 0.83019656, a: 1}
+  m_Color: {r: 0.17702031, g: 0.9622642, b: 0.723277, a: 1}
   m_Intensity: 130000
   m_Range: 10
   m_SpotAngle: 30
@@ -7858,12 +7858,12 @@ GameObject:
   - component: {fileID: 1412260462}
   - component: {fileID: 1412260461}
   m_Layer: 0
-  m_Name: DynamicFogPlane
+  m_Name: Fog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1412260461
 MeshCollider:
   m_ObjectHideFlags: 0

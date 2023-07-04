@@ -17,7 +17,7 @@ Material:
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2748
@@ -48,7 +48,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - FogDensity: 1
+    - FogDensity: 0.068
     - FogNoise: 1000000
     - FogSpeed: 10000000
     - _AddPrecomputedVelocity: 0
@@ -104,7 +104,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - FogColor: {r: 0.029842503, g: 6.3265953, b: 3.9470427, a: 1}
+    - FogColor: {r: 0.0754717, g: 0.0017799926, b: 0.0076611624, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FogColor: {r: 0.84298223, g: 2.828427, b: 1.5972295, a: 1}
