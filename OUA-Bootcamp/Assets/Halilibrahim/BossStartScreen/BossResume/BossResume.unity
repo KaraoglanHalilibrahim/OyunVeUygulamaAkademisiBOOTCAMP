@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 20671.193, g: 23581.424, b: 27136.941, a: 1}
+  m_IndirectSpecularColor: {r: 22.136824, g: 116.16618, b: 556.6148, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 118393625}
   - component: {fileID: 118393624}
   m_Layer: 0
-  m_Name: 'Sky and Fog Global Volume '
+  m_Name: 'Sky and Fog '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7647,6 +7647,7 @@ MonoBehaviour:
   nisangahNoktasi: {fileID: 5444017184226689167}
   atisGucu: 100
   atisHizi: 1
+  ammo: 0
 --- !u!1 &4732709761246155713
 GameObject:
   m_ObjectHideFlags: 0
