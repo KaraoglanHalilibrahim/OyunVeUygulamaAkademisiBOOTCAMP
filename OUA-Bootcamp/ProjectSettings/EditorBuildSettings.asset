@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Halilibrahim/New Scene.unity
     guid: 18818650b86e56148844ce39abfb150c
   - enabled: 1
+    path: Assets/Plugins/Unisave/Examples/PlayerAuthentication/PlayerAuthentication.unity
+    guid: 151faa001928ab19a93116a24bd13dba
+  - enabled: 1
     path: Assets/Halilibrahim/Intro.unity
     guid: bba9e42992f73ff43919483db58f04b3
   - enabled: 1
