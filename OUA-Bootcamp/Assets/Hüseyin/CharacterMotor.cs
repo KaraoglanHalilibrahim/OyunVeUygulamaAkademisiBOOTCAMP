@@ -1,15 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Net.Mail;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class CharacterMotor : MonoBehaviour
 {
-
-
-
-
     [SerializeField] protected CharacterMotorConfig Config;
 
     protected Rigidbody LinkedRB;
@@ -27,8 +24,8 @@ public class CharacterMotor : MonoBehaviour
     {
         get
         {
-            if (IsGrounded || IsWallRunning)
-                return IsWallRunning ? Config.RunSpeed : Config.WalkSpeed;
+            if (IsGrounded || IsWallRunning || IsSliding)
+                return IsSliding ? Config.SlideSpeed : IsWallRunning ? Config.RunSpeed : Config.WalkSpeed;
             return Config.CanAirControl ? Config.AirControlMaxSpeed : 0f;
         }
     }
@@ -48,10 +45,7 @@ public class CharacterMotor : MonoBehaviour
     {
         RaycastHit groundCheckResult = UpdateIsGrounded();
         UpdateMovement(groundCheckResult);
-        if (IsWallRunning)
-        {
-
-        }
+        //Debug.Log(LinkedRB.velocity.magnitude + " veloctiy");
     }
 
     private void LateUpdate()
@@ -89,8 +83,16 @@ public class CharacterMotor : MonoBehaviour
     }
     protected void UpdateMovement(RaycastHit groundCheckResult)
     {
+        //if (IsSliding)
+        //{
+        //    _Input_Move = new Vector2(SlidingVector.x, SlidingVector.y);
+        //}
+
         Vector3 movementVector = (transform.forward * _Input_Move.y + transform.right * _Input_Move.x);
+        if (IsSliding)
+            movementVector = transform.forward * SlidingVector.y + transform.right * SlidingVector.x;
         movementVector *= CurrentMaxSpeed;
+
 
         //are we on the ground
         if (IsGrounded)
@@ -109,6 +111,7 @@ public class CharacterMotor : MonoBehaviour
 
         UpdateJumping(ref movementVector);
         UpdateWallrun(ref movementVector);
+        UpdateSliding();
         LinkedRB.velocity = Vector3.MoveTowards(LinkedRB.velocity, movementVector, Config.Acceleration);
     }
     [SerializeField] Transform LinkedCamera;
@@ -118,7 +121,8 @@ public class CharacterMotor : MonoBehaviour
         float cameraPitchDelta = _Input_Look.y * Config.Camera_VerticalSensitivity * Time.deltaTime * (Config.Camera_InvertY ? 1f : -1f);
 
         // rotate the character 
-        transform.localRotation = transform.localRotation * Quaternion.Euler(0f, cameraYawDelta, 0f);
+        if (!IsSliding)
+            transform.localRotation = transform.localRotation * Quaternion.Euler(0f, cameraYawDelta, 0f);
 
         HandleHeadbobAndFootstep();
 
@@ -131,7 +135,7 @@ public class CharacterMotor : MonoBehaviour
     private float headbobTimerMultiplier = 1.3f;
     protected void HandleHeadbobAndFootstep()
     {
-        if (!IsGrounded && !IsWallRunning) return;
+        if (!IsGrounded && !IsWallRunning || IsSliding) return;
 
         float currentSpeed = LinkedRB.velocity.magnitude;
         if (currentSpeed >= Config.Headbob_MinSpeedToBob)
@@ -215,21 +219,12 @@ public class CharacterMotor : MonoBehaviour
                 {
                     movementVector.y = Config.JumpVelocity;
                 }
-
-
             }
         }
         else
         {
             wallRight = false; wallLeft = false; IsWallRunning = false;
             transform.localRotation = Quaternion.Lerp(Quaternion.Euler(transform.localEulerAngles.x, transform.localEulerAngles.y, 0), transform.localRotation, Mathf.Pow(.01f, Time.deltaTime));
-
-            if (angleTimer > 0)
-            {
-                //angleTimer -= Time.deltaTime;
-                //currentAngle = Mathf.SmoothStep(currentAngle, 0, angleTimer);
-                //transform.RotateAround(LinkedRB.position + Vector3.down * Config.Height * 0.5f, transform.forward, currentAngle);
-            }
         }
 
     }
@@ -304,5 +299,76 @@ public class CharacterMotor : MonoBehaviour
     protected void OnJump(InputValue value)
     {
         _Input_Jump = value.isPressed;
+    }
+
+    protected bool IsSliding = false;
+    protected float SlideTimeRemaining = 0f;
+    protected bool _Input_Slide;
+    protected Vector2 SlidingVector;
+    protected void OnSlide(InputValue value)
+    {
+        _Input_Slide = value.isPressed;
+    }
+    protected void UpdateSliding()
+    {
+        bool triggeredSlideThisFrame = false;
+        if (_Input_Slide)
+        {
+            _Input_Slide = false;
+            bool shouldWeTryToSlide = true;
+
+            if (!IsGrounded)
+                shouldWeTryToSlide = false;
+            if (IsWallRunning)
+                shouldWeTryToSlide = false;
+            if (IsSliding)
+                shouldWeTryToSlide = false;
+            if (Config.VelocityThresholdForSliding > LinkedRB.velocity.magnitude)
+                shouldWeTryToSlide = false;
+            if (_Input_Move.y <= 0)
+                shouldWeTryToSlide = false;
+            if (Mathf.Abs(_Input_Move.x) > 0.7f)
+                shouldWeTryToSlide = false;
+
+            if (shouldWeTryToSlide)
+            {
+                triggeredSlideThisFrame = true;
+                SlidingVector = new Vector2(_Input_Move.x, _Input_Move.y);
+                SlideTimeRemaining += Config.MaxSlideTime;
+                IsSliding = true;
+                currentAngle = -50;
+            }
+        }
+        if (IsSliding)
+        {
+            if (!triggeredSlideThisFrame)
+                SlideTimeRemaining -= Time.deltaTime;
+
+            if (SlideTimeRemaining <= 0)
+            {
+                Vector3 startPos = LinkedRB.position;
+                RaycastHit ceilingHitResult;
+
+                if (Physics.Raycast(startPos, Vector3.up, out ceilingHitResult, Config.UnderWallCheckDistance))
+                {
+                    Debug.Log("true ??km?yor mu");
+                    IsSliding = true;
+                }
+                else
+                {
+                    SlidingVector = Vector2.zero;
+                    SlideTimeRemaining = 0f;
+                    IsSliding = false;
+                }
+
+            }
+
+            //transform.localRotation = Quaternion.Lerp(Quaternion.Euler(currentAngle, transform.localEulerAngles.y, transform.localEulerAngles.z), transform.localRotation, Mathf.Pow(.01f, Time.deltaTime));
+            transform.localRotation = Quaternion.Lerp(Quaternion.Euler(currentAngle, transform.localEulerAngles.y, -15), transform.localRotation, Mathf.Pow(.01f, Time.deltaTime));
+        }
+        else
+        {
+            transform.localRotation = Quaternion.Lerp(Quaternion.Euler(0, transform.localEulerAngles.y, transform.localEulerAngles.z), transform.localRotation, Mathf.Pow(.01f, Time.deltaTime));
+        }
     }
 }

@@ -63,4 +63,10 @@ public class CharacterMotorConfig : ScriptableObject
     public float wallRunTimer;
     public float WallCheckDistance = 0.7f;
     public float MinJumpHeight;
+
+    [Header("Wallrun")]
+    public float MaxSlideTime;
+    public float SlideSpeed;
+    public float VelocityThresholdForSliding;
+    public float UnderWallCheckDistance;
 }

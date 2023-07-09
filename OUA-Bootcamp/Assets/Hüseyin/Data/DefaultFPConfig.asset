@@ -55,3 +55,7 @@ MonoBehaviour:
   wallRunTimer: 0
   WallCheckDistance: 1
   MinJumpHeight: 0
+  MaxSlideTime: 0.7
+  SlideSpeed: 14
+  VelocityThresholdForSliding: 9
+  UnderWallCheckDistance: 1
