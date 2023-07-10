@@ -50,7 +50,8 @@ public class CharacterMotor : MonoBehaviour
 
     private void LateUpdate()
     {
-        UpdateCamera();
+        if (!CameraInputBlocked)
+            UpdateCamera();
     }
 
     protected RaycastHit UpdateIsGrounded()
@@ -120,6 +121,7 @@ public class CharacterMotor : MonoBehaviour
         float cameraYawDelta = _Input_Look.x * Config.Camera_HorizontalSensitivity * Time.deltaTime;
         float cameraPitchDelta = _Input_Look.y * Config.Camera_VerticalSensitivity * Time.deltaTime * (Config.Camera_InvertY ? 1f : -1f);
 
+        Debug.Log(cameraYawDelta + " cam yav delta " + cameraPitchDelta + " cam pitch delta ");
         // rotate the character 
         if (!IsSliding)
             transform.localRotation = transform.localRotation * Quaternion.Euler(0f, cameraYawDelta, 0f);
@@ -128,6 +130,7 @@ public class CharacterMotor : MonoBehaviour
 
         // tilt the camera
         CurrentCameraPitch = Mathf.Clamp(CurrentCameraPitch + cameraPitchDelta, Config.Camera_MinPitch, Config.Camera_MaxPitch);
+
         LinkedCamera.transform.localRotation = Quaternion.Euler(CurrentCameraPitch, 0, 0);
     }
     private float timer;
@@ -309,6 +312,9 @@ public class CharacterMotor : MonoBehaviour
     {
         _Input_Slide = value.isPressed;
     }
+    float SlidingCameraPitch;
+    bool CameraInputBlocked;
+    float slidingInputBlockTimer = 0.0f;
     protected void UpdateSliding()
     {
         bool triggeredSlideThisFrame = false;
@@ -335,14 +341,25 @@ public class CharacterMotor : MonoBehaviour
                 triggeredSlideThisFrame = true;
                 SlidingVector = new Vector2(_Input_Move.x, _Input_Move.y);
                 SlideTimeRemaining += Config.MaxSlideTime;
+
                 IsSliding = true;
-                currentAngle = -50;
+                CameraInputBlocked = true;
+                CurrentCameraPitch = 40;
+                currentAngle = -80;
             }
         }
         if (IsSliding)
         {
             if (!triggeredSlideThisFrame)
                 SlideTimeRemaining -= Time.deltaTime;
+
+            if (SlideTimeRemaining < Config.SlidingInputBlockTime)
+            {
+                CurrentCameraPitch = LinkedCamera.transform.localEulerAngles.x;
+                CameraInputBlocked = false;
+            }
+            else
+                LinkedCamera.transform.localRotation = Quaternion.Lerp(Quaternion.Euler(CurrentCameraPitch, 0, 0), LinkedCamera.transform.localRotation, Mathf.Pow(.1f, Time.deltaTime));
 
             if (SlideTimeRemaining <= 0)
             {
@@ -351,7 +368,6 @@ public class CharacterMotor : MonoBehaviour
 
                 if (Physics.Raycast(startPos, Vector3.up, out ceilingHitResult, Config.UnderWallCheckDistance))
                 {
-                    Debug.Log("true ??km?yor mu");
                     IsSliding = true;
                 }
                 else
@@ -359,16 +375,18 @@ public class CharacterMotor : MonoBehaviour
                     SlidingVector = Vector2.zero;
                     SlideTimeRemaining = 0f;
                     IsSliding = false;
+                    CurrentCameraHorizontalPitch = 0;
+                    CameraInputBlocked = false;
                 }
 
             }
 
-            //transform.localRotation = Quaternion.Lerp(Quaternion.Euler(currentAngle, transform.localEulerAngles.y, transform.localEulerAngles.z), transform.localRotation, Mathf.Pow(.01f, Time.deltaTime));
-            transform.localRotation = Quaternion.Lerp(Quaternion.Euler(currentAngle, transform.localEulerAngles.y, -15), transform.localRotation, Mathf.Pow(.01f, Time.deltaTime));
+            transform.localRotation = Quaternion.Lerp(Quaternion.Euler(currentAngle, transform.localEulerAngles.y, transform.localEulerAngles.z), transform.localRotation, Mathf.Pow(.1f, Time.deltaTime));
+
         }
         else
         {
-            transform.localRotation = Quaternion.Lerp(Quaternion.Euler(0, transform.localEulerAngles.y, transform.localEulerAngles.z), transform.localRotation, Mathf.Pow(.01f, Time.deltaTime));
+            transform.localRotation = Quaternion.Lerp(Quaternion.Euler(0, transform.localEulerAngles.y, transform.localEulerAngles.z), transform.localRotation, Mathf.Pow(.25f, Time.deltaTime));
         }
     }
 }

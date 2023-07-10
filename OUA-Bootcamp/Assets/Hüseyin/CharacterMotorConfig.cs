@@ -69,4 +69,5 @@ public class CharacterMotorConfig : ScriptableObject
     public float SlideSpeed;
     public float VelocityThresholdForSliding;
     public float UnderWallCheckDistance;
+    public float SlidingInputBlockTime = 0.5f;
 }
