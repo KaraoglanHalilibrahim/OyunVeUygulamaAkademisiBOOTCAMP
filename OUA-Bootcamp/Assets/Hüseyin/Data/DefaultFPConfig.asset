@@ -32,8 +32,8 @@ MonoBehaviour:
   Camera_InvertY: 0
   Camera_HorizontalSensitivity: 20
   Camera_VerticalSensitivity: 20
-  Camera_MinPitch: -75
-  Camera_MaxPitch: 75
+  Camera_MinPitch: -55
+  Camera_MaxPitch: 55
   WalkSpeed: 15
   RunSpeed: 17
   CanRun: 1
@@ -59,3 +59,4 @@ MonoBehaviour:
   SlideSpeed: 14
   VelocityThresholdForSliding: 9
   UnderWallCheckDistance: 1
+  SlidingInputBlockTime: 0.3
