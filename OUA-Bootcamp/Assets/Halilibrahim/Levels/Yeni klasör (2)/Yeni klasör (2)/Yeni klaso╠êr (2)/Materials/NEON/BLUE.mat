@@ -26,12 +26,12 @@ Material:
   m_Name: BLUE
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_Parent: {fileID: 2100000, guid: 252fd08370d96294fb552d23b0e4ecd3, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _NORMALMAP_TANGENT_SPACE
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -55,8 +55,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _AlbedoAffectEmissive: 0
+    - _CoatMask: 0
+    - _EmissiveExposureWeight: 1
+    - _EmissiveIntensity: 0.8010471
+    - _NormalMapSpace: 0
+    - _NormalScale: 0
+    - _UseEmissiveIntensity: 1
     m_Colors:
     - _BaseColor: {r: 0.5801887, g: 0.64604145, b: 1, a: 0.95686275}
     - _Color: {r: 0.58018863, g: 0.64604145, b: 1, a: 0.95686275}
+    - _EmissiveColor: {r: 0.59999996, g: 0.18839312, b: 0.08821632, a: 0.8010471}
+    - _EmissiveColorLDR: {r: 0.88031507, g: 0.5222165, b: 0.36576572, a: 1}
   m_BuildTextureStacks: []
