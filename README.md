@@ -271,7 +271,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
      - Sinematikler  test edildi. 
 - **Ana Karakter:**
   
- -Ana karakterin Genel testleri yapıldı ve tamamlandı.
+ - Ana karakterin Genel testleri yapıldı ve tamamlandı.
    
 - **Düşman:**
   - Düşmanlar levellerin, belirlenen yerlerine yerleştirildi.
@@ -339,16 +339,16 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
   ## Sprint Review:
 - **Parkur:**
-    - Parkurlar Genel olarak test edildi ve tamamlandı.
+     - Parkurlar Genel olarak test edildi ve tamamlandı.
  - **Sinematikler:**
-     - Sinematikler  test edildi. 
+      - Sinematikler  test edildi. 
 - **Ana Karakter:**
   
- - Ana karakterin Genel testleri yapıldı ve tamamlandı.
+   - Ana karakterin Genel testleri yapıldı ve tamamlandı.
    
 - **Düşman:**
-  - Düşmanlar levellerin, belirlenen yerlerine yerleştirildi.
+   - Düşmanlar levellerin, belirlenen yerlerine yerleştirildi.
  
   ## Sprint Retrospective:
-   - Güzel bir süreç geçirdiğimiz ve olabildiğince kendimizi geliştirdiğimiz için, minnettar olarak başka projelerde buluşma arzularımızla son sprintimizi de noktaladık.
+    - Güzel bir süreç geçirdiğimiz ve olabildiğince kendimizi geliştirdiğimiz için, minnettar olarak başka projelerde buluşma arzularımızla son sprintimizi de noktaladık.
 
