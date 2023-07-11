@@ -35,4 +35,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Halilibrahim/Levels/Level_01/Level01.unity
     guid: 669df6d02f51ddd4d9ee845ede9b8cdd
+  - enabled: 1
+    path: "Assets/Halilibrahim/Levels/Yeni klas\xF6r (2)/Yeni klas\xF6r (2)/Yeni
+      klaso\u2560\xEAr (2)/BeyzaLevel.unity"
+    guid: fdbc27e83bb1842e09e04f5762b191b3
+  - enabled: 1
+    path: Assets/Halilibrahim/LoadingScreenLevel_Level_2.unity
+    guid: 6f61cfa9924b71545b1d0d67b903441d
+  - enabled: 1
+    path: Assets/Halilibrahim/LoadingScreenLevel_Boss_Level.unity
+    guid: 528efe485e63b614b826d1d80fe4cee8
+  - enabled: 1
+    path: Assets/Halilibrahim/Levels/BossLevel/BossLevel.unity
+    guid: dae4106a155714b4697bc2b11e383054
   m_configObjects: {}
