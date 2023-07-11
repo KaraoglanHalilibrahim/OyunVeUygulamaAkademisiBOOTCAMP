@@ -1,4 +1,6 @@
-# TAKIM BİLGİLERİ
+
+https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/01a67ae9-ab68-493e-aa32-4fb1dd91a7b1
+[Sprint-3DailyScrums.docx](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/12013436/Sprint-3DailyScrums.docx)# TAKIM BİLGİLERİ
 - ## Takım İsmi
 **First Attempt**
 - ## Takım Logosu
@@ -176,7 +178,7 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 - Sprint-2 User Stories
 - ![userStories](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/3e01c5e0-686d-4f18-bd44-5263582ac61c)
 
-## **Sprint-1 İçin  Screenshotlar ve Videolar:**
+## **Sprint-2 İçin  Screenshotlar ve Videolar:**
 
 - Sprint-2 NeonExample
 - ![NeonTrying](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/ee3217ac-1a6a-4501-ab99-3c6dbe9ec38d)
@@ -252,4 +254,100 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
  
   ## Sprint Retrospective:
    - Sprint-3 te daha aktif olunması kararı alındı. Sprint-2 de 50 puanlık Backlog, Sprint-3 e eklendiğinden, sprint-3 te yapılacak olan Backlog 170 puana yükselmiştir.
+ 
+  # SPRİNT-3
+
+ - **Sprint İçinde Tamamlanması Tahmin Edilen Puan:**  120 Puan + sprint-2 den kalan (50-45) puanlık backlog.
+ 
+ - **Daily Scrums:** Daily Scrum Toplantılarını Her gün Whatsapp Ve Discord Üzerinden gerek toplantı, Gerekse de Yazılı Şeklinde Yaptık. Ekte Daily Scrum Toplantılarının Screenshotları Bulunmaktadır.                            
+
+  - [Sprint-3 Daily Scrums Chats](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/12013462/Sprint-3DailyScrums.docx)
+
+## SPRİNT-3 NOTLARI:
+- **Parkur:**
+    - Parkurlar Genel olarak test edildi ve tamamlandı.
+ - **Sinematikler:**
+     - Sinematikler  test edildi. 
+- **Ana Karakter:**
+  
+ -Ana karakterin Genel testleri yapıldı ve tamamlandı.
+   
+- **Düşman:**
+  - Düşmanlar levellerin, belirlenen yerlerine yerleştirildi.
+
+
+### Sprint-3 Board Update:
+- ## Pruduct Baclog Url
+ - [First Attemt Takımı Miro Backlog Board](https://miro.com/app/board/uXjVMAkv-Rw=/?share_link_id=53762630314)
+- **Sprint-2:** Backlog:
+- ![Backlogs](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/dd95733e-f9dd-4230-86c3-595ffe13956e)
+
+- Sprint-3 Reaming Work
+- ![reamingWorks](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/0409de30-b3e6-42c8-bb3b-a658483cff05)
+
+- Sprint-3 User Stories
+- ![userStories](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/2f1ca951-29ac-4683-941f-794a9bd88760)
+
+
+## **Sprint-3 İçin  Screenshotlar ve Videolar:**
+
+
+- NeonSettings02
+ - ![NeonSettings02](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/be3b79af-7a3c-435f-a258-38e0c2c5141b)
+- NeonSettings01  
+ - ![NeonSettings01](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/30dc117e-b33f-436d-b990-2acaca3e7718)
+- LevelDesign04   
+ - ![LevelDesign04](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/4a28612a-d53b-4df1-9a17-8c582a867222)
+- LevelDesign03   
+ - ![LevelDesign03](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/dc7d67cd-3eae-447c-8e7d-1266b2ac9414)
+- LevelDesign02   
+ - ![LevelDesign02](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/8a3d31a4-08cb-4929-abf2-6d9e91fefc55)
+- LevelDesign01   
+ - ![LevelDesign01](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/d7a3d138-e0c9-42dc-a003-1eeb3258a28c)
+- Level02   
+ - ![Level02](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/4cd9cca1-5f45-4de5-a3c7-a92d8c137e38)
+- Level01   
+ - ![Level01](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/87ebe2e5-d503-4555-8017-2681f67dd974)
+
+
+
+
+- **Sprint-3:** Yapım Aşamasındaki Videolar:**
+ 
+
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/649eb957-40e6-4ba3-9128-9eafe88ea2e4
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/515d3a3a-997e-49f2-9152-be8f0808b502
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/e5973ac1-05fd-4b27-926c-287409cd9256
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/b1edbfd8-0972-4af1-ac5c-05790c6835da
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/8a26de3c-cf53-488a-9740-c614baf126ad
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/162c0fd6-dc74-4a23-b52a-0c055b486653
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/dc2fe507-1bd0-4944-9e9a-8ff3f7dadd31
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/8b392fa1-ece0-475d-87c3-9bc30556b592
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/8aa82849-167c-4269-915f-657cfb143527
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/2c30b758-ddbd-4643-b50c-938c3c25145b
+- https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/3ed8fb59-7101-4dd2-ada2-442757db7481
+
+
+
+
+
+
+
+
+
+
+  ## Sprint Review:
+- **Parkur:**
+    - Parkurlar Genel olarak test edildi ve tamamlandı.
+ - **Sinematikler:**
+     - Sinematikler  test edildi. 
+- **Ana Karakter:**
+  
+ - Ana karakterin Genel testleri yapıldı ve tamamlandı.
+   
+- **Düşman:**
+  - Düşmanlar levellerin, belirlenen yerlerine yerleştirildi.
+ 
+  ## Sprint Retrospective:
+   - Güzel bir süreç geçirdiğimiz ve olabildiğince kendimizi geliştirdiğimiz için, minnettar olarak başka projelerde buluşma arzularımızla son sprintimizi de noktaladık.
 
