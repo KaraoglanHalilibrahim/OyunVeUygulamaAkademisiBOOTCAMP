@@ -1,6 +1,5 @@
 
-https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/assets/122394967/01a67ae9-ab68-493e-aa32-4fb1dd91a7b1
-[Sprint-3DailyScrums.docx](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/12013436/Sprint-3DailyScrums.docx)# TAKIM BİLGİLERİ
+# TAKIM BİLGİLERİ
 - ## Takım İsmi
 **First Attempt**
 - ## Takım Logosu
