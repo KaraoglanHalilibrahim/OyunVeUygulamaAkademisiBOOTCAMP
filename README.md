@@ -59,6 +59,8 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
 ## `JURİYE NOT`
 - Oyunumuzu Steam ve Epic Games Üzerinden Satışa Sunmayı Planladığımız İçin, Değerlendirme Kriterleri Arasında Yer Alan                                                                                                   **Oyunun ticarileştirme mekaniği doğru  uygulanmış (test reklamları kullanılabilir)** Kriteri için Test Reklamları Kullanılmayacaktır.
+- Oyunumuzda Bir API yardımı ile oyuncuların eposta bağlantısı sağlandı.
+- karakterin davranışlarını takip edip raporlaması için, Oyunda Öldürülen düşman sayısını, oyuncu anlık olarak takip edebilmektedir.
 
 # SPRİNT-1
 
