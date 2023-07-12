@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 08c153e20f78d92478ee1271d7570cdb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Arcadia
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 76e08cd18b49ddb4eabffcf978e07211, type: 3}
+  - {fileID: 12800000, guid: b4a4fd6aea5bfc64988fed7a9c101d0d, type: 3}
+  - {fileID: 12800000, guid: f604596774434f74cba1bfc269349101, type: 3}
+  - {fileID: 12800000, guid: b6eeecceb1ff86a47b6da247a94f6fed, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
