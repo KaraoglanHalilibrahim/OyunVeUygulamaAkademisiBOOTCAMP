@@ -265,6 +265,8 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
   - [Sprint-3 Daily Scrums Chats](https://github.com/KaraoglanHalilibrahim/OyunVeUygulamaAkademisi/files/12013462/Sprint-3DailyScrums.docx)
 
 ## SPRİNT-3 NOTLARI:
+- **API:**
+  - Oyun bir API ' ye bağlandı ve oyuncu isterse e-posta ile kayıt olup, giriş yapabilir. Diğer oyuncularla sohbet edebilir, Skorunu ekleyebilir vs.
 - **Parkur:**
     - Parkurlar Genel olarak test edildi ve tamamlandı.
  - **Sinematikler:**
@@ -338,6 +340,8 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 
 
   ## Sprint Review:
+- **API:**
+  - Oyun bir API ' ye bağlandı ve oyuncu isterse e-posta ile kayıt olup, giriş yapabilir. Diğer oyuncularla sohbet edebilir, Skorunu ekleyebilir vs.
 - **Parkur:**
      - Parkurlar Genel olarak test edildi ve tamamlandı.
  - **Sinematikler:**
