@@ -62,6 +62,23 @@ Oyun, oyunculara heyecan verici bir FPS parkur deneyimi sunar. Ana karakterin ko
 - Oyunumuzda Bir API yardımı ile oyuncuların eposta bağlantısı sağlandı.
 - karakterin davranışlarını takip edip raporlaması için, Oyunda Öldürülen düşman sayısını, oyuncu anlık olarak takip edebilmektedir.
 
+
+## Kullanılan Hazır Assetler:
+- https://assetstore.unity.com/packages/3d/environments/fantasy/the-portal-collection-205438
+- https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
+- https://assetstore.unity.com/packages/tools/gui/easy-loading-screen-140365
+- https://assetstore.unity.com/packages/tools/utilities/fence-layout-tool-162856
+- https://assetstore.unity.com/packages/3d/environments/urban/brick-house-pack-modular-environment-235250
+- https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
+- https://assetstore.unity.com/packages/3d/props/furniture/summer-open-air-table-and-chair-94677
+- https://assetstore.unity.com/packages/tools/physics/easy-destructible-wall-331
+- https://assetstore.unity.com/packages/3d/characters/minotaur1-196863
+- https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/skeleton-outlaw-130946
+- https://sketchfab.com/3d-models/sci-fi-neon-model-f2637e8e70264eae8694643afd195bfb
+- https://sketchfab.com/3d-models/level-02-vr-platform-game-on-sketchfab-47f281e4c1b4440981249f7a2fdae8c1
+- https://sketchfab.com/3d-models/level-01-vr-platform-game-on-sketchfab-fab60e2d60f34158acef3488c9902526
+- https://sketchfab.com/3d-models/war-of-the-tripods-9df8ea66182749bd90abc717a9153c53
+
 # SPRİNT-1
 
 ## SPRİNT-1 NOTLARI:
